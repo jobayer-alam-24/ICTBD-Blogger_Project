@@ -9,7 +9,14 @@
         <div class="col-md-6">
             <div class="card">
                 <div class="text-center mt-2">
-                    <img src="/User/Images/@Model.Media" width="200" height="200" class="img-thumbnail" alt="User Profile Picture" asp-append-version="true">
+                    @if(Model.Media != "NONE")
+                    {
+                        <img src="/User/Images/@Model.Media" width="200" height="200" class="img-thumbnail" alt="User Profile Picture" asp-append-version="true">
+                    }
+                    else
+                    {
+                        <img src="~/assets/MyImages/no_image.png" width="200" height="200" class="img-thumbnail" alt="User Profile Picture" asp-append-version="true">
+                    }
                 </div>
                 <div class="card-body">
                     <h5 class="card-title text-center">User Details</h5>

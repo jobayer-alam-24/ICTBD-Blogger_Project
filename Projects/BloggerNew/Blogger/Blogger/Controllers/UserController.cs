@@ -67,10 +67,13 @@ namespace Blogger.Controllers
         {
             if(ModelState.IsValid)
             {
-                string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
-                using(FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    await Image.CopyToAsync(stream);
+                    string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
+                    using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    {
+                        await Image.CopyToAsync(stream);
+                    }
                 }
 
                 User SetUser = new User()
@@ -84,7 +87,7 @@ namespace Blogger.Controllers
                     RejisteredAt = DateTime.Now,
                     LastLogin = DateTime.Now,
                     Intro = user.Intro,
-                    Media = Image.FileName
+                    Media = (Image != null && !string.IsNullOrEmpty(Image.FileName)) ? Image.FileName : "NONE"
                 };
                 await _context.Users.AddAsync(SetUser);
                 await _context.SaveChangesAsync();
@@ -102,10 +105,13 @@ namespace Blogger.Controllers
                 return BadRequest("Invalid Id");
             if(ModelState.IsValid)
             {
-                string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
-                using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    await Image.CopyToAsync(stream);
+                    string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
+                    using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    {
+                        await Image.CopyToAsync(stream);
+                    }
                 }
 
                 var ExistingUser = _context.Users.FirstOrDefault(x => x.Id == ID);
@@ -118,7 +124,7 @@ namespace Blogger.Controllers
                 ExistingUser.RejisteredAt = user.RejisteredAt;
                 ExistingUser.LastLogin = user.LastLogin;
                 ExistingUser.Intro = user.Intro;
-                ExistingUser.Media = Image.FileName;
+                ExistingUser.Media = (Image != null && !string.IsNullOrEmpty(Image.FileName)) ? Image.FileName : "NONE";
                 await _context.SaveChangesAsync(true);
                 TempData["success-messege"] = "User Updated Successfully!";
                 return RedirectToAction(nameof(List));

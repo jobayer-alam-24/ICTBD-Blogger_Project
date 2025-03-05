@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\OneDrive\\Documents\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj": {}
+    "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\OneDrive\\Documents\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj": {
+    "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj",
         "projectName": "Blogger",
-        "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj",
+        "projectPath": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Blogger.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\OneDrive\\Documents\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\",
+        "outputPath": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
