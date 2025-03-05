@@ -1,0 +1,87 @@
+@using Blogger.Enums
+@model Post
+@{
+    ViewData["Title"] = "Add A New Blog";
+}
+@section Styles{
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.css" rel="stylesheet" asp-append-version="true">
+}
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml" model='("Create A Blog", "/", "Dashboard", "Add A New Blog")'></partial>
+<div class="card">
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="card-body">
+            <div class="mb-3 row">
+                <label asp-for="CategoryId" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <select asp-for="CategoryId" class="form-control" asp-items="@ViewBag.Categories"></select>
+                    <span asp-validation-for="CategoryId" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="Media" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input class="form-control" type="file" asp-for="Media"
+                           id="formFile" name="Image">
+                    <span asp-validation-for="Media" class="text-danger"></span>
+                    <div id="imagePreview" class="d-flex justify-content-center align-items-center border border-dashed" style="width: 30px; height: 30px; margin-top: 10px;">
+						<img src="" class="img-thumbnail" style="width: 100%; height:100%;" id="show"/>
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="Title" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input class="form-control" type="text" asp-for="Title" placeholder="Enter the title of the blog">
+                    <span asp-validation-for="Title" class="text-danger"></span>
+                </div>
+            </div>
+      
+            <div class="mb-3 row">
+                <label asp-for="Content" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <textarea id="summernote" class="form-control" style="resize: none;" asp-for="Content" rows="5"
+                        placeholder="Write about your blog..."></textarea>
+                        <span asp-validation-for="Content" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label asp-for="Status" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<Status>()">
+                        <option value="">Select the status of the blog</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            @Html.AntiForgeryToken()
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-action="List" class="btn btn-secondary">Cancel</a>
+        </div>
+    </form>
+</div>
+@section Scripts{
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#summernote').summernote();
+            var box = $("#imagePreview");
+            var display = $("#show");
+            var inputImage = $("[name='Image']")
+            display.hide();
+            box.width(0);
+            box.height(0);
+            inputImage.on("change", (e)=>{
+                var object = e.target.files[0];
+                var url = URL.createObjectURL(object);
+                display.attr("src", url);
+                display.show();
+                box.width(200);
+                box.height(200);
+            })
+        })
+    </script>
+)}

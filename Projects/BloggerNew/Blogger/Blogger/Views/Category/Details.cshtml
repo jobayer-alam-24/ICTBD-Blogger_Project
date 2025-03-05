@@ -1,0 +1,23 @@
+@using Blogger.Helpers.CustomAttributes
+@model Category
+@{
+    ViewData["Title"] = "Category Details";
+}
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml" model='("Category Details", "/", "Dashboard", "Details")'/>
+<div class="container mt-5">
+    <div class="card" style="width: 24rem;">
+        <div class="card-body">
+            <h5 class="card-title">@Model.Name <span class="badge rounded-pill bg-info float-end">@Model.Status</span></h5>
+            @if(Model.Media != "NONE")
+            {
+                <img src="/Category/Images/@Model.Media" alt="Category Picture" class="img-thumbnail" asp-append-version="true">
+            }
+            else
+            {
+                <img src="~/assets/MyImages/no_image.png" alt="Category Picture" class="img-thumbnail" asp-append-version="true">
+            }
+            <p class="card-text"><strong>Slug:</strong> @Model.Slug</p>
+            <p class="card-text">@Html.Raw(@Model.Content)</p>
+        </div>
+    </div>
+</div>

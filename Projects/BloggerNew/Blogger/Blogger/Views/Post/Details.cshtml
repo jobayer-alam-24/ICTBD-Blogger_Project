@@ -1,0 +1,23 @@
+@model Post
+@{
+    ViewData["Title"] = "Post Details";
+}
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml" model='("Post Details", "/", "Dashboard", "Details")'/>
+<div class="container mt-5">
+    <div class="card" style="width: 24rem;">
+        @if(Model.Media != "NONE")
+        {
+             <img src="/Post/Images/@Model.Media" class="card-img-top" alt="Media" asp-append-versio="true">
+
+        }
+        else
+        {
+            <img src="~/assets/MyImages/no_image.png" class="card-img-top" alt="Media" asp-append-versio="true">
+        }
+        <div class="card-body">
+            <h5 class="card-title">@Model.Title</h5>
+            <p class="card-text">@Html.Raw(@Model.Content)</p>
+            <p class="card-text"><small class="text-muted">Published At: @Model.PublishedAt</small></p>
+            <p class="card-text"><strong>Status:</strong> @Model.Status</p>
+        </div>
+    </div>
