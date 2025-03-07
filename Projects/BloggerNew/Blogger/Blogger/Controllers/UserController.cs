@@ -69,10 +69,28 @@ namespace Blogger.Controllers
             {
                 if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
-                    using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    string extension = Path.GetExtension(Image.FileName);
+                    long size = Image.Length;
+                    if(extension == ".jpg" || extension == ".png" || extension == ".jpeg")
                     {
-                        await Image.CopyToAsync(stream);
+                        if(size <= 100000)
+                        {
+                            string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
+                            using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                            {
+                                await Image.CopyToAsync(stream);
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(user);
+                        }
+                    }
+                    else
+                    {
+                        TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(user);
                     }
                 }
 
@@ -107,10 +125,28 @@ namespace Blogger.Controllers
             {
                 if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
-                    using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    string extension = Path.GetExtension(Image.FileName);
+                    long size = Image.Length;
+                    if(extension.Equals(".jpg") || extension.Equals(".jpeg") || extension.Equals(".png"))
                     {
-                        await Image.CopyToAsync(stream);
+                        if(size <= 100000)
+                        {
+                            string path = Path.Combine(webHostEnvironment.WebRootPath, "User", "Images", Image.FileName);
+                            using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                            {
+                                await Image.CopyToAsync(stream);
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(user);
+                        }
+                    }
+                    else
+                    {
+                        TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(user);
                     }
                 }
 

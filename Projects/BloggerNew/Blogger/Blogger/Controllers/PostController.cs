@@ -61,17 +61,36 @@ namespace Blogger.Controllers
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([FromForm] Post post, int CategoryId, IFormFile? Image)
+        public async Task<IActionResult> Create([FromForm] Post post, int CategoryId, IFormFile Image)
         {
             if (ModelState.IsValid)
             {
                 if(Image != null && Image.FileName != null)
                 {
-                    string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
-                    using (var fileStream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                    string extension = Path.GetExtension(Image.FileName);
+                    long size = Image.Length;
+                    if(extension.Equals(".jpg") || extension.Equals(".jpeg") || extension.Equals(".png"))
                     {
-                        await Image.CopyToAsync(fileStream);
+                        if(size <= 100000)
+                        {
+                            string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
+                            using (var fileStream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                            {
+                                await Image.CopyToAsync(fileStream);
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(post);
+                        }
                     }
+                    else
+                    {
+                        TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(post);
+                    }
+                    
                 }
                 post.CategoryId = CategoryId;
                 post.Slug = post.Title.GetBlogUrl();
@@ -105,23 +124,41 @@ namespace Blogger.Controllers
                 var ExistingPosts = _context.Posts.FirstOrDefault(x => x.Id == id);
                 if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
-                    if (ExistingPosts.Media != Image.FileName)
+                    string extension = Path.GetExtension(Image.FileName);
+                    long size = Image.Length;
+                    if (extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-
-                        string SetPath = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
-                        using (var fileStream = new FileStream(SetPath, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                        if(size <= 100000)
                         {
-                            await Image.CopyToAsync(fileStream);
+                            string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
+                            if (ExistingPosts.Media != Image.FileName)
+                            {
+                                string SetPath = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
+                                using (var fileStream = new FileStream(SetPath, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                                {
+                                    await Image.CopyToAsync(fileStream);
+                                }
+
+                            }
+                            else
+                            {
+                                using (var stream = new FileStream(path, FileMode.Truncate, FileAccess.ReadWrite, FileShare.Read))
+                                {
+                                    await Image.CopyToAsync(stream);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(post);
                         }
 
                     }
                     else
                     {
-                        using (var stream = new FileStream(path, FileMode.Truncate, FileAccess.ReadWrite, FileShare.Read))
-                        {
-                            await Image.CopyToAsync(stream);
-                        }
+                        TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(post);
                     }
                 }
                 ExistingPosts.Content = post.Content;

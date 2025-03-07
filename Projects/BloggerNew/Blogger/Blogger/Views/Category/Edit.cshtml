@@ -8,6 +8,20 @@
 }
 <partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml"
 		 model='("Edit A Category", "/", "Dashboard", "Category")'></partial>
+@if (TempData["type_error"] != null)
+{
+	<div class="mt-2 alert alert-danger alert-dismissible fade show" role="alert">
+		@TempData["type_error"]
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
+@if (TempData["size_error"] != null)
+{
+	<div class="mt-2 alert alert-danger alert-dismissible fade show" role="alert">
+		@TempData["size_error"]
+		<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+	</div>
+}
 <div class="card">
 	<form asp-action="Edit" method="post" enctype="multipart/form-data">
 		<div class="text-danger" asp-validation-summary="All"></div>
@@ -17,7 +31,7 @@
 				<div class="col-md-10">
 					<input class="form-control" type="file" asp-for="Media"
 						   id="formFile" name="Image">
-					<span asp-validation-for="Media" class="text-danger"></span>
+					<span asp-validation-for="Media" id="errorMessege" class="text-danger"></span>
 					<div id="imagePreview" class="d-flex justify-content-center align-items-center border border-dashed" style="width: 100px; height: 100px; margin-top: 10px;">
 						<img src="" style="width: 100%; height:100%;" id="show" />
 					</div>
@@ -75,17 +89,35 @@
 			$('#summernote').summernote();
 			var box = $("#imagePreview");
 			var display = $("#show");
-			var inputImage = $("[name='Image']")
+			var inputImage = $("[name='Image']");
+			var errorSpan = $("#errorMessege");
 			display.hide();
 			box.width(0);
 			box.height(0);
 			inputImage.on("change", (e)=>{
-				var object = e.target.files[0];
-				var url = URL.createObjectURL(object);
-				display.attr("src", url);
-				display.show();
-				box.width(200);
-				box.height(200);
+
+					var object = e.target.files[0];
+					var url = URL.createObjectURL(object);
+					display.attr("src", url);
+					display.show();
+					box.width(200);
+					box.height(200);
+					var img = new Image();
+					img.src = url;
+					img.onload = function()
+					{
+						var width = img.width;
+						var height = img.height;
+						if(width < 100 || height < 100)
+						{
+							errorSpan.text("Image width and height must be at least 100px");
+						}
+						else
+						{
+							errorSpan.text("");
+						}
+					}
+
 				})
 			})
 	</script>

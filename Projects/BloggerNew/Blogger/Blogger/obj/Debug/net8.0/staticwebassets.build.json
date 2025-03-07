@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qBVfyriCDYxLe4W66WWKjBn+GKORDvewyn5R9b/F5n8=",
+  "Hash": "/quxV49HpsftKgY2PV4JYL2VOHN2Lr6aom2HtwX75Mw=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -7239,27 +7239,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Post\\Images\\tech.jpeg"
-    },
-    {
-      "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpeg",
-      "SourceId": "Blogger",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
-      "BasePath": "_content/Blogger",
-      "RelativePath": "Post/Images/travel#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "eslngp91nr",
-      "Integrity": "8k0ije1FTWyjq24OrhaZ/HEXOBoRHAsSgY+V+anwuBM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Post\\Images\\travel.jpeg"
     },
     {
       "Identity": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\Images\\user.png",
@@ -35493,88 +35472,6 @@
       ]
     },
     {
-      "Route": "Post/Images/travel.eslngp91nr.jpeg",
-      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5364"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8k0ije1FTWyjq24OrhaZ/HEXOBoRHAsSgY+V+anwuBM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:17:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eslngp91nr"
-        },
-        {
-          "Name": "label",
-          "Value": "Post/Images/travel.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-8k0ije1FTWyjq24OrhaZ/HEXOBoRHAsSgY+V+anwuBM="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/travel.jpeg",
-      "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5364"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"8k0ije1FTWyjq24OrhaZ/HEXOBoRHAsSgY+V+anwuBM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:17:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-8k0ije1FTWyjq24OrhaZ/HEXOBoRHAsSgY+V+anwuBM="
-        }
-      ]
-    },
-    {
       "Route": "User/Images/user.jaf5508nb4.png",
       "AssetFile": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\Images\\user.png",
       "Selectors": [],
@@ -35597,7 +35494,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:14:54 GMT"
+          "Value": "Fri, 07 Mar 2025 06:18:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35642,7 +35539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 04 Mar 2025 08:14:54 GMT"
+          "Value": "Fri, 07 Mar 2025 06:18:34 GMT"
         },
         {
           "Name": "Cache-Control",

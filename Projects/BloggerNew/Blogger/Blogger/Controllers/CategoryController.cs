@@ -7,6 +7,7 @@ using Blogger.Data;
 using Blogger.Helpers.CustomAttributes;
 using Blogger.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -43,11 +44,29 @@ namespace Blogger.Controllers
             {
                 if(Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
-                    using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                    string extension = Path.GetExtension(Image.FileName);
+                    long size = Image.Length;
+                    if(extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-                        await Image.CopyToAsync(stream);
+                        if(size <= 100000)
+                        {
+                            string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
+                            using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
+                            {
+                                await Image.CopyToAsync(stream);
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(category);
+                        }
                     }
+                    else
+                    {
+                       TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(category);
+                    }  
                 }
                 Category setCategory = new Category()
                 {
@@ -92,14 +111,33 @@ namespace Blogger.Controllers
             {
                 if (Image != null && !string.IsNullOrEmpty(Image.FileName))
                 {
-                    string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
-                    if (!System.IO.File.Exists(path))
+                    string extension = Path.GetExtension(Image.FileName);
+                    long length = Image.Length;
+                    if(extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-                        using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                        if(length <= 100000)
                         {
-                            await Image.CopyToAsync(stream);
+                            string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
+                            if (!System.IO.File.Exists(path))
+                            {
+                                using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
+                                {
+                                    await Image.CopyToAsync(stream);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            TempData["size_error"] = "File must be less than 100000";
+                            return View(category);
                         }
                     }
+                    else
+                    {
+                        TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
+                        return View(category);
+                    }
+                   
                 }
 
                 var ExistingModel = await _context.Categories.FindAsync(id);
