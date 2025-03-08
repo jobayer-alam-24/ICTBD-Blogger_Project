@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|c:\\users\\hp\\onedrive\\documents\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|c:\\users\\hp\\onedrive\\documents\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Blogger\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Blogger\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T01:17:22.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Blogger\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Blogger\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAAHYAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-08T01:15:13.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

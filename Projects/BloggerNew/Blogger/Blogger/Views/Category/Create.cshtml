@@ -91,6 +91,7 @@
             var display = $("#show");
             var inputImage = $("[name='Image']");
             var errorSpan = $("#errorMessege");
+            var submitBtn = $('[type="submit"]');
             display.hide();
             box.width(0);
             box.height(0);
@@ -110,10 +111,12 @@
                     if(width < 100 || height < 100)
                     {
                         errorSpan.text("Image width and height must be at least 100px");
+                        submitBtn.attr("disabled", true);
                     }
                     else
                     {
                         errorSpan.text("");
+                        submitBtn.attr("disabled", false);
                     }
                 }
             })
