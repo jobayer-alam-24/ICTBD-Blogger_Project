@@ -17,6 +17,8 @@
             <table class="table table-bordered table-striped table-hover">
                 <thead class="thead-dark text-center">
                     <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Parent Id</th>
                         <th scope="col">Picture</th>
                         <th scope="col">Name</th>
                         <th scope="col">Parent</th>
@@ -32,6 +34,8 @@
                         @foreach (var category in Model)
                         {
                             <tr>
+                                <td>@category.Id</td>
+                                <td>@category.ParentId</td>
                                 <td>
                                     @if(category.Media != "NONE")
                                     {

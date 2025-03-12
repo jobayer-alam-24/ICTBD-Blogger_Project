@@ -1,19 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Threading.Tasks;
-using AspNetCoreGeneratedDocument;
+using System.Transactions;
 using Blogger.Data;
 using Blogger.Enums;
 using Blogger.Helpers.CustomAttributes;
 using Blogger.Models;
-using Blogger.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Logging;
 
 namespace Blogger.Controllers
 {
