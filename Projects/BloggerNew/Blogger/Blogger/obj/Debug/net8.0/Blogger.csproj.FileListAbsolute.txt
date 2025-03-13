@@ -520,3 +520,4 @@ C:\Users\HP\OneDrive\Documents\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger
 C:\Users\HP\OneDrive\Documents\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\HP\OneDrive\Documents\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\HP\OneDrive\Documents\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\HP\OneDrive\Documents\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_AuthLayout.cshtml.rz.scp.css

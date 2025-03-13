@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|c:\\users\\hp\\onedrive\\documents\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|c:\\users\\hp\\onedrive\\documents\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\authentication\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Blogger\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Blogger\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T08:26:19.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Authentication\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Blogger\\Views\\Authentication\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Documents\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Authentication\\SignUp.cshtml",
+              "RelativeToolTip": "Blogger\\Views\\Authentication\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-13T07:21:47.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
