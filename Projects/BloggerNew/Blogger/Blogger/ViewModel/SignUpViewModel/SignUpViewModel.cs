@@ -14,9 +14,9 @@ namespace Blogger.ViewModel.SignUpViewModel
         public string LastName { get; set; }
         [Required(ErrorMessage = "Email is Required"), EmailAddress, DataType(DataType.EmailAddress)]
         public string Email { get; set; }
-        [Required(ErrorMessage = "Password is Required"), DataType(DataType.Password)]
+        [Required(ErrorMessage = "Password is Required"), DataType(DataType.Password), StringLength(12, MinimumLength = 8, ErrorMessage = "Password must be at least 8 to 12 characters!")]
         public string Password { get; set; }
-        [Display(Name = "Confirm Password"), Required(ErrorMessage = "Confirm Password is Required"), Compare("Password", ErrorMessage = "Confirm Password does not matched!")]
+        [Display(Name = "Confirm Password"), Required(ErrorMessage = "Confirm Password is Required"), Compare("Password", ErrorMessage = "Confirm Password does not matched!"), StringLength(12, MinimumLength = 8, ErrorMessage = "Confirm Password must be at least 8 to 12 characters!")]
         public string ConfirmPassword { get; set; }
     }
 }

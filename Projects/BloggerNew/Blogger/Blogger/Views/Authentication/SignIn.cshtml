@@ -1,16 +1,17 @@
-﻿@model SignUpViewModel
+﻿@using Blogger.ViewModel.SignInViewModel
+@model SignInViewModel
 @{
 	Layout = "~/Views/Shared/_AuthLayout.cshtml";
-	ViewData["Title"] = "Sign Up";
+	ViewData["Title"] = "Sign In";
 }
 <div class="col-md-8 col-lg-6 col-xl-5">
     <div class="card overflow-hidden">
-        <div class="bg-primary bg-soft">
+        <div class="bg-primary-subtle">
             <div class="row">
                 <div class="col-7">
                     <div class="text-primary p-4">
-                        <h5 class="text-primary">Register Here</h5>
-                        <p>Get your Blogger account now.</p>
+                        <h5 class="text-primary">Welcome Back !</h5>
+                        <p>Sign in to continue to Blogger.</p>
                     </div>
                 </div>
                 <div class="col-5 align-self-end">
@@ -19,8 +20,16 @@
             </div>
         </div>
         <div class="card-body pt-0">
-            <div>
-                <a href="/Sign-up">
+            <div class="auth-logo">
+                <a href="/sign-in" class="auth-logo-light">
+                    <div class="avatar-md profile-user-wid mb-4">
+                        <span class="avatar-title rounded-circle bg-light">
+                            <img src="~/assets/images/profile-img.png" alt="" class="rounded-circle" height="34">
+                        </span>
+                    </div>
+                </a>
+
+                <a href="index.html" class="auth-logo-dark">
                     <div class="avatar-md profile-user-wid mb-4">
                         <span class="avatar-title rounded-circle bg-light">
                             <img src="@Default.LogoPath" alt="" class="rounded-circle" height="34">
@@ -29,46 +38,36 @@
                 </a>
             </div>
             <div class="p-2">
-                <form class="needs-validation" asp-action="SignUp" asp-controller="Authentication">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label asp-for="FirstName" class="form-label"></label>
-                                <input type="text" asp-for="FirstName" class="form-control" required="" placeholder="First name">
-                                <span asp-validation-for="FirstName" class="text-danger"></span>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="mb-3">
-                                <label asp-for="LastName" class="form-label"></label>
-                                <input type="text" asp-for="LastName" class="form-control" placeholder="Last name" required="">
-                                <span asp-validation-for="LastName" class="text-danger"></span>
-                            </div>
-                        </div>
-                    </div>
+                <form class="form-horizontal" asp-action="SignIn" asp-controller="Authentication">
+
                     <div class="mb-3">
-                        <label asp-for="Email" class="form-label"></label>
-                        <input type="email" asp-for="Email" class="form-control" id="useremail" placeholder="Enter email" required>
-                        <span asp-validation-for="Email" class="text-danger"></span>
+                        <label asp-for="UserName" class="form-label"></label>
+                        <input type="text" asp-for="UserName" class="form-control" id="username" placeholder="Enter username">
+                        <span asp-validation-for="UserName" class="text-danger"></span>
                     </div>
 
                     <div class="mb-3">
                         <label asp-for="Password" class="form-label"></label>
-                        <input asp-for="Password" type="password" class="form-control" id="userpassword" placeholder="Enter password" required>
+                        <div class="input-group auth-pass-inputgroup">
+                            <input type="password" asp-for="Password" class="form-control" placeholder="Enter password" aria-label="Password" aria-describedby="password-addon">
+                            <button class="btn btn-light " type="button" id="password-addon"><i class="mdi mdi-eye-outline"></i></button>
+                        </div>
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
-                    <div class="mb-3">
-                        <label asp-for="ConfirmPassword" class="form-label"></label>
-                        <input type="password" asp-for="ConfirmPassword" class="form-control" id="userpassword" placeholder="Enter password" required>
-                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+
+                    <div class="form-check">
+                        <input class="form-check-input" asp-for="RememberMe" type="checkbox" id="remember-check">
+                        <label class="form-check-label" asp-for="RememberMe">
+                            Remember me
+                        </label>
                     </div>
 
-                    <div class="mt-4 d-grid">
-                        <button class="btn btn-primary waves-effect waves-light" type="submit">Register</button>
+                    <div class="mt-3 d-grid">
+                        <button class="btn btn-primary waves-effect waves-light" type="submit">Log In</button>
                     </div>
 
                     <div class="mt-4 text-center">
-                        <h5 class="font-size-14 mb-3">Sign up using</h5>
+                        <h5 class="font-size-14 mb-3">Sign in with</h5>
 
                         <ul class="list-inline">
                             <li class="list-inline-item">
@@ -90,7 +89,7 @@
                     </div>
 
                     <div class="mt-4 text-center">
-                        <p class="mb-0">By registering you agree to the Blogger <a href="#" class="text-primary">Terms of Use</a></p>
+                        <a href="/sign-in" class="text-muted"><i class="mdi mdi-lock me-1"></i> Forgot your password?</a>
                     </div>
                 </form>
             </div>
@@ -100,9 +99,10 @@
     <div class="mt-5 text-center">
 
         <div>
-            <p>Already have an account ? <a href="/sign-in" class="fw-medium text-primary"> Sign In</a> </p>
+            <p>Don't have an account ? <a href="/sign-up" class="fw-medium text-primary"> Signup now </a> </p>
         </div>
     </div>
+
 </div>
 @section Scripts
 {
