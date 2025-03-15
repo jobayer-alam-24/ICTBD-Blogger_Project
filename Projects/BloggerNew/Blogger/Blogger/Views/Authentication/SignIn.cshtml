@@ -39,11 +39,10 @@
             </div>
             <div class="p-2">
                 <form class="form-horizontal" asp-action="SignIn" asp-controller="Authentication">
-
                     <div class="mb-3">
-                        <label asp-for="UserName" class="form-label"></label>
-                        <input type="text" asp-for="UserName" class="form-control" id="username" placeholder="Enter username">
-                        <span asp-validation-for="UserName" class="text-danger"></span>
+                        <label asp-for="Email" class="form-label"></label>
+                        <input type="email" asp-for="Email" class="form-control" id="email" placeholder="Enter username">
+                        <span asp-validation-for="Email" class="text-danger"></span>
                     </div>
 
                     <div class="mb-3">
