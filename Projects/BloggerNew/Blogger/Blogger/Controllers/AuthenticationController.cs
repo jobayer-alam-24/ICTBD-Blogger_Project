@@ -1,6 +1,7 @@
 ﻿using Blogger.Data;
 using Blogger.ViewModel.SignInViewModel;
 using Blogger.ViewModel.SignUpViewModel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,7 @@ namespace Blogger.Controllers
 
         [Route("/sign-up")]
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult SignUp()
         {
             return View();
@@ -63,15 +65,17 @@ namespace Blogger.Controllers
 
         [Route("/sign-in")]
         [HttpGet]
-        public IActionResult SignIn()
+        [AllowAnonymous]
+        public IActionResult SignIn(string returnUrl)
         {
+            ViewBag.ReturnUrl = returnUrl;
             return View();
         }
 
         [Route("/sign-in")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> SignIn(SignInViewModel model)
+        public async Task<IActionResult> SignIn(SignInViewModel model, string ReturnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -81,6 +85,10 @@ namespace Blogger.Controllers
                     var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
                     if(result.Succeeded)
                     {
+                        if (Url.IsLocalUrl(ReturnUrl))
+                        {
+                            return Redirect(ReturnUrl);
+                        }
                         return Redirect("/");
                     }
                     ModelState.AddModelError("", "Invalid Sign in Attempt!");
@@ -88,6 +96,7 @@ namespace Blogger.Controllers
                 }
                
             }
+            ViewBag.ReturnUrl = ReturnUrl;
             return View(model);
         }
         [Route("/sign-out")]

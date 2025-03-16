@@ -3,12 +3,14 @@ using Blogger.Data;
 using Blogger.Enums;
 using Blogger.Helpers.CustomAttributes;
 using Blogger.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 
 namespace Blogger.Controllers
 {
+    [Authorize]
     public class PostController : Controller
     {
         private readonly IWebHostEnvironment _webHostEnvironment;

@@ -1,20 +1,14 @@
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Threading.Tasks;
 using Blogger.Data;
 using Blogger.Helpers.CustomAttributes;
 using Blogger.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Microsoft.Extensions.Logging;
 
 namespace Blogger.Controllers
 {
+    [Authorize]
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;
