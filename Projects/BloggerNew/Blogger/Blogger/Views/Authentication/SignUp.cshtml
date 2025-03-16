@@ -60,12 +60,18 @@
 
                     <div class="mb-3">
                         <label asp-for="Password" class="form-label"></label>
-                        <input asp-for="Password" type="password" class="form-control" id="userpassword" placeholder="Enter password" required>
+                        <div class="input-group auth-pass-inputgroup">
+                            <input type="password" asp-for="Password" class="form-control" placeholder="Enter password" id="Pass" aria-label="Password" aria-describedby="password-addon">
+                            <button class="btn btn-light " type="button" id="PassBtn">show</button>
+                        </div>
                         <span asp-validation-for="Password" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label asp-for="ConfirmPassword" class="form-label"></label>
-                        <input type="password" asp-for="ConfirmPassword" class="form-control" id="userpassword" placeholder="Enter password" required>
+                        <div class="input-group auth-pass-inputgroup">
+                            <input type="password" asp-for="ConfirmPassword" class="form-control" placeholder="Enter confirm password" aria-label="Password" aria-describedby="password-addon" id="confirmPass">
+                            <button class="btn btn-light " type="button" id="confirmBtn">show</button>
+                        </div>
                         <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
                     </div>
 
@@ -112,5 +118,27 @@
 </div>
 @section Scripts
 {
+    <script>
+        $(document).ready(function() {
+            var btn = $("#confirmBtn");
+            var inputPassword = $("#confirmPass");
+            var mainPassBtn = $("#PassBtn");
+            var mainPass = $("#Pass");
+            togglePassword(btn, inputPassword);
+            togglePassword(mainPassBtn, mainPass);
+            function togglePassword(btn, inputPassword) {
+            btn.on("click", function () {
+                var type = inputPassword.attr("type");
+                if (type == "text") {
+                    inputPassword.attr("type", "password");
+                    btn.text("show");
+                } else {
+                    inputPassword.attr("type", "text");
+                    btn.text("hide"); 
+                }
+            });
+        }
+        });
+    </script>
     <partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml"></partial>
 }
