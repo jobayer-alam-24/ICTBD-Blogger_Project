@@ -1,11 +1,24 @@
-﻿using Blogger.ViewModel.SignInViewModel;
+﻿using Blogger.Data;
+using Blogger.ViewModel.SignInViewModel;
 using Blogger.ViewModel.SignUpViewModel;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blogger.Controllers
 {
     public class AuthenticationController : Controller
     {
+        //Services
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly SignInManager<ApplicationUser> _signInManager;
+
+        //Dependency Injection
+        public AuthenticationController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        {
+            _userManager = userManager;
+            _signInManager = signInManager;
+        }
+
         [Route("/sign-up")]
         [HttpGet]
         public IActionResult SignUp()
@@ -16,13 +29,36 @@ namespace Blogger.Controllers
         [Route("/sign-up")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult SignUp(SignUpViewModel signUpViewModel)
+        public async Task<IActionResult> SignUp(SignUpViewModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(signUpViewModel);
+                var user = new ApplicationUser()
+                {
+                    UserName = model.Email,
+                    FirstName = model.FirstName,
+                    LastName = model.LastName,
+                    Age = model.Age,
+                    Email = model.Email,
+                };
+
+                var result = await _userManager.CreateAsync(user, model.Password);
+                if (result.Succeeded)
+                {
+                    TempData["success-messege"] = "Sign up Successfull!";
+                    return RedirectToAction(nameof(SignIn));
+                }
+                else
+                {
+                    foreach (var error in result.Errors)
+                    {
+                        ModelState.AddModelError("", error.Description);
+                    }
+                    return View(model);
+                }
+
             }
-            return View(signUpViewModel);
+            return View(model);
         }
 
         [Route("/sign-in")]
@@ -35,13 +71,31 @@ namespace Blogger.Controllers
         [Route("/sign-in")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult SignIn(SignInViewModel signInViewModel)
+        public async Task<IActionResult> SignIn(SignInViewModel model)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
-                return View(signInViewModel);
+                var user = await _userManager.FindByEmailAsync(model.Email);
+                if (user != null)
+                {
+                    var result = await _signInManager.PasswordSignInAsync(user, model.Password, model.RememberMe, false);
+                    if(result.Succeeded)
+                    {
+                        return Redirect("/");
+                    }
+                    ModelState.AddModelError("", "Invalid Sign in Attempt!");
+                    return View(model);
+                }
+               
             }
-            return View(signInViewModel);
+            return View(model);
+        }
+        [Route("/sign-out")]
+        [HttpGet]
+        public async Task<IActionResult> SingOut()
+        {
+            await _signInManager.SignOutAsync();
+            return Redirect("/sign-in");
         }
     }
 }

@@ -1,3 +1,4 @@
+@inject SignInManager<ApplicationUser> _signInManager
 <div class="vertical-menu">
 
     <div data-simplebar="init" class="h-100">
@@ -96,10 +97,20 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/sign-in" class="waves-effect">
-                                            <i class="bx bx-log-in"></i>
-                                            <span key="t-calendar">Sing-In</span>
-                                        </a>
+                                        @if(_signInManager.IsSignedIn(User))
+                                        {
+                                            <a href="/sign-out" class="waves-effect">
+                                                <i class="bx bx-log-out"></i>
+                                                <span key="t-calendar">Sing-Out</span>
+                                            </a>
+                                        }
+                                        else
+                                        {
+                                            <a href="/sign-in" class="waves-effect">
+                                                <i class="bx bx-log-in"></i>
+                                                <span key="t-calendar">Sing-In</span>
+                                            </a>
+                                        }
                                     </li>
                                 </ul>
                             </div>

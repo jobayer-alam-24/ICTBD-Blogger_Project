@@ -30,6 +30,7 @@
             </div>
             <div class="p-2">
                 <form class="needs-validation" asp-action="SignUp" asp-controller="Authentication">
+                    <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="mb-3">
@@ -45,6 +46,11 @@
                                 <span asp-validation-for="LastName" class="text-danger"></span>
                             </div>
                         </div>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="Age" class="form-label"></label>
+                        <input type="number" asp-for="Age" class="form-control" id="userage" placeholder="Enter age" required>
+                        <span asp-validation-for="Age" class="text-danger"></span>
                     </div>
                     <div class="mb-3">
                         <label asp-for="Email" class="form-label"></label>
