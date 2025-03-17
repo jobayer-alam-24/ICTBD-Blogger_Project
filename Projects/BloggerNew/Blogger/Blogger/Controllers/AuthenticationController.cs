@@ -91,11 +91,16 @@ namespace Blogger.Controllers
                         }
                         return Redirect("/");
                     }
-                    ModelState.AddModelError("", "Invalid Sign in Attempt!");
-                    return View(model);
+                    else
+                    {
+                        ModelState.AddModelError("", "Invalid Sign in           Attempt!");
+                        return View(model);
+                    }
+                    
                 }
                
             }
+            ModelState.AddModelError("", "Invalid Sign in Attempt!");
             ViewBag.ReturnUrl = ReturnUrl;
             return View(model);
         }
