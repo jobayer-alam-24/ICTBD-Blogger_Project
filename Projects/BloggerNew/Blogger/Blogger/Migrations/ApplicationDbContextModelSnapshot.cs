@@ -31,6 +31,7 @@ namespace Blogger.Migrations
                         .HasColumnType("int");
 
                     b.Property<int>("Age")
+                        .HasMaxLength(80)
                         .HasColumnType("int");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -45,10 +46,14 @@ namespace Blogger.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("FirstName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("LastName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");

@@ -22,6 +22,11 @@ builder.Services.ConfigureApplicationCookie(options =>
     options.LoginPath = "/sign-in";
     options.AccessDeniedPath = "/access-denied";
 });
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.SignIn.RequireConfirmedEmail = false;
+});
+
 //builder.Services.AddMvc(options =>
 //{
 //    var policy = new AuthorizationPolicyBuilder()

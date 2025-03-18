@@ -122,7 +122,7 @@ namespace Blogger.Controllers
                 {
                     return Json($"{email} is already taken!");
                 }
-                return Json($"<span style='color: green'>{email} is Valid.</span>");
+                return Json(true);
             }
             return BadRequest("Email is not Provided!");
         }
