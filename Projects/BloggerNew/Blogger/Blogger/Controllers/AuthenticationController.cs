@@ -75,7 +75,7 @@ namespace Blogger.Controllers
         [Route("/sign-in")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> SignIn(SignInViewModel model, string ReturnUrl)
+        public async Task<IActionResult> SignIn(UserViewModel model, string ReturnUrl)
         {
             if (ModelState.IsValid)
             {
@@ -110,6 +110,21 @@ namespace Blogger.Controllers
         {
             await _signInManager.SignOutAsync();
             return Redirect("/sign-in");
+        }
+        //Used in Remote Validation
+        [HttpGet]
+        public async Task<IActionResult> IsEmailInUsedAsync(string email)
+        {
+            if(!string.IsNullOrEmpty(email))
+            {
+                var user = await _userManager.FindByEmailAsync(email);
+                if(user is not null)
+                {
+                    return Json($"{email} is already taken!");
+                }
+                return Json($"<span style='color: green'>{email} is Valid.</span>");
+            }
+            return BadRequest("Email is not Provided!");
         }
     }
 }
