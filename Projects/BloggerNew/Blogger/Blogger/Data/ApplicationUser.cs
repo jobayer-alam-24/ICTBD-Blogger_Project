@@ -11,6 +11,7 @@ namespace Blogger.Data
         [Required(ErrorMessage = "Last Name is Required"), StringLength(30, ErrorMessage = "Last name must be within 30 characters")]
         [Display(Name = "Last Name")]
         public string LastName { get; set; }
+
         [Range(5, 80, ErrorMessage = "Age must be within 80 to use Blogger!")]
         public int Age { get; set; }
     }

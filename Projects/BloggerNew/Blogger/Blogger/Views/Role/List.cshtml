@@ -1,4 +1,4 @@
-﻿@model List<IdentityRole>
+﻿@model List<ApplicationRole>
 @{
     ViewData["Title"] = "Role List";
 }
@@ -19,6 +19,7 @@
                     <tr>
                         <th>ID</th>
                         <th>Role Name</th>
+                        <th>Description</th>
                         <th>Actions</th>
                     </tr>
                 </thead>
@@ -28,6 +29,7 @@
                         <tr>
                             <td class="fw-bold">@role.Id</td>
                             <td class="text-capitalize">@role.Name</td>
+                            <td class="text-capitalize">@role.Description</td>
                             <td>
                                 <div class="d-flex gap-2 align-items-center justify-content-center">
                                     <a asp-action="EditRole" asp-route-id="@role.Id" class="btn btn-sm btn-primary">Edit</a>

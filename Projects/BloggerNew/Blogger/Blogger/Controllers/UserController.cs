@@ -56,7 +56,8 @@ namespace Blogger.Controllers
                     FirstName = user.FirstName,
                     LastName = user.LastName,
                     Age = user.Age,
-                    Email = user.Email
+                    Email = user.Email,
+                    PhoneNumber = user.PhoneNumber
                 };
                 var result = await _userManager.CreateAsync(applicationUser);
                 if (result.Succeeded)
@@ -76,15 +77,16 @@ namespace Blogger.Controllers
         {
             if (ModelState.IsValid)
             {
-                var getUser = await _userManager.FindByIdAsync(user.Id);
-                if (getUser != null)
+                var existingUser = await _userManager.FindByIdAsync(user.Id);
+                if (existingUser != null)
                 {
-                    getUser.Email = user.Email;
-                    getUser.FirstName = user.FirstName;
-                    getUser.LastName = user.LastName; 
-                    getUser.Age = user.Age;
+                    existingUser.Email = user.Email;
+                    existingUser.FirstName = user.FirstName;
+                    existingUser.LastName = user.LastName; 
+                    existingUser.Age = user.Age;
+                    existingUser.PhoneNumber = user.PhoneNumber;
 
-                    var result = await _userManager.UpdateAsync(getUser);
+                    var result = await _userManager.UpdateAsync(existingUser);
                     if(result.Succeeded)
                     {
                         return RedirectToAction(nameof(List));

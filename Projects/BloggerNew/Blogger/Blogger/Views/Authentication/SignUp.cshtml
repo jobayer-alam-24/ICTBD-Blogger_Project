@@ -52,6 +52,13 @@
                         <input type="number" asp-for="Age" class="form-control" id="userage" placeholder="Enter age" required>
                         <span asp-validation-for="Age" class="text-danger"></span>
                     </div>
+
+                    <div class="mb-3">
+                        <label asp-for="PhoneNumber" class="form-label fw-bold">Phone Number</label>
+                        <input asp-for="PhoneNumber" type="number" class="form-control" placeholder="Enter Phone Number" min="11" required />
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    
                     <div class="mb-3">
                         <label asp-for="Email" class="form-label"></label>
                         <input type="email" asp-for="Email" class="form-control" id="useremail" placeholder="Enter email" required>

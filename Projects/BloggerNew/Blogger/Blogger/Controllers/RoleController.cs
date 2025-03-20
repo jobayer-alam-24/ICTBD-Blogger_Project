@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Blogger.Data;
+using Blogger.ViewModel.EditRoleViewModel;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -6,11 +8,13 @@ namespace Blogger.Controllers
 {
     public class RoleController : Controller
     {
-        private readonly RoleManager<IdentityRole> _roleManager;
+        private readonly RoleManager<ApplicationRole> _roleManager;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public RoleController(RoleManager<IdentityRole> roleManager)
+        public RoleController(RoleManager<ApplicationRole> roleManager, UserManager<ApplicationUser> userManager)
         {
             _roleManager = roleManager;
+            _userManager = userManager;
         }
         public async Task<IActionResult> List()
         {
@@ -22,7 +26,7 @@ namespace Blogger.Controllers
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> AddNewRole(IdentityRole role)
+        public async Task<IActionResult> AddNewRole(ApplicationRole role)
         {
             if (role is not null)
             {
@@ -52,14 +56,22 @@ namespace Blogger.Controllers
                 var role = await _roleManager.FindByIdAsync(id);
                 if (role is not null)
                 {
-                    return View(role);
+                    var roleWithUsers = new EditRoleViewModel()
+                    {
+                        Id = role.Id,
+                        Name = role.Name,
+                        Description = role.Description,
+                        UserNames = _userManager.GetUsersInRoleAsync(role.Id).Result.Select(x => x.UserName).ToList()
+                    };
+
+                    return View(roleWithUsers);
                 }
                 return RedirectToAction(nameof(List));
             }
             return BadRequest("Role id Is not Provided");
         }
         [HttpPost]
-        public async Task<IActionResult> EditRole(IdentityRole role)
+        public async Task<IActionResult> EditRole(EditRoleViewModel role)
         {
             if (role is not null)
             {
@@ -68,6 +80,7 @@ namespace Blogger.Controllers
                 {
                     existingRole.Name = role.Name;
                     existingRole.Id = role.Id;
+                    existingRole.Description = role.Description;
                     existingRole.ConcurrencyStamp = Guid.NewGuid().ToString();
                     var result = await _roleManager.UpdateAsync(existingRole);
 

@@ -31,6 +31,12 @@
                 <p class="text-muted">@Model.Email</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-6 mb-3">
+                <h5 class="fw-bold">Phone Number:</h5>
+                <p class="text-muted">@Model.PhoneNumber</p>
+            </div>
+        </div>
 
         <div class="d-flex justify-content-center mt-4">
             <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary px-4">✏️ Edit</a>

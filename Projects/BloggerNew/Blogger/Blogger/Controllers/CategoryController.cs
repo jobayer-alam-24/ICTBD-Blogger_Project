@@ -195,7 +195,16 @@ namespace Blogger.Controllers
             }
             return RedirectToAction(nameof(List));
         }
-
+        [HttpPost]
+        public JsonResult CheckCategory(string categoryName)
+        {
+            bool isExists = _context.Categories.Any(x => x.Name == categoryName);
+            if (isExists)
+            {
+                return Json(new { isExists });
+            }
+            return Json(new { isExists });
+        }
         private async Task BindSelectList()
         {
             ViewBag.Lists = new SelectList(await _context.Categories.ToListAsync(), "Id", "Name");

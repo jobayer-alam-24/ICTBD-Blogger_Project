@@ -42,6 +42,7 @@ namespace Blogger.Controllers
                     LastName = model.LastName,
                     Age = model.Age,
                     Email = model.Email,
+                    PhoneNumber = model.PhoneNumber
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);
@@ -93,7 +94,7 @@ namespace Blogger.Controllers
                     }
                     else
                     {
-                        ModelState.AddModelError("", "Invalid Sign in           Attempt!");
+                        ModelState.AddModelError("", "Invalid Sign in Attempt!");
                         return View(model);
                     }
                     
