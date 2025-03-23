@@ -338,6 +338,8 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Post\Images\fonts.png
+wwwroot\Post\Images\naviforce.jpg
 wwwroot\Post\Images\pexels-sohi-807598.jpg
 wwwroot\Post\Images\tech.jpeg
 wwwroot\User\Images\user.png

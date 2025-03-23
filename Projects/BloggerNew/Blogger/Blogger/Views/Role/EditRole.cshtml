@@ -45,7 +45,7 @@ model='($"Edit -> {Model.Name}", "/", "Dashboard", "Roles")' />
             {
                 foreach(var name in Model.UserNames)
                 {
-                    <li class="list-group-item-pink">@name</li>
+                    <li class="list-group-item">@name</li>
                 }
             }
             else
@@ -56,7 +56,9 @@ model='($"Edit -> {Model.Name}", "/", "Dashboard", "Roles")' />
     </div>
     <div class="card-footer text-end">
         <button class="btn btn-primary" type="button" id="roleToggleBtn">
-            <i class="bi bi-person-plus-fill" id="roleIcon"></i> <span id="roleText">Add or Remove Role</span>
+            <a asp-action="AssignUserRole" class="text-white" asp-route-roleId="@Model.Id">
+                <i class="bi bi-person-plus-fill" id="roleIcon"></i> Add or Remove Role
+            </a>
         </button>
     </div>
 </div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xlGMREcvzvKHi/xCd7IetxOOP8dEtQHE/LAEKkoxjO0=",
+  "Hash": "ovdcvkxXGrvfYfwfKL7AyuiA+KFmGPq22y9WkSRfOM0=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -8520,6 +8520,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/fonts#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "78wm0ficky",
+      "Integrity": "pwhG+X/MgnpJUiz7/tK6mwyTCrKGHm4JMqzPuLsXNHU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\fonts.png"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\naviforce.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/naviforce#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ssngfez73b",
+      "Integrity": "hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\naviforce.jpg"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\pexels-sohi-807598.jpg",
@@ -41289,6 +41331,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fonts.78wm0ficky.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwhG+X/MgnpJUiz7/tK6mwyTCrKGHm4JMqzPuLsXNHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:43:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "78wm0ficky"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/fonts.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwhG+X/MgnpJUiz7/tK6mwyTCrKGHm4JMqzPuLsXNHU="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fonts.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "57138"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pwhG+X/MgnpJUiz7/tK6mwyTCrKGHm4JMqzPuLsXNHU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:43:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pwhG+X/MgnpJUiz7/tK6mwyTCrKGHm4JMqzPuLsXNHU="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/naviforce.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\naviforce.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:45:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/naviforce.ssngfez73b.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\naviforce.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133810"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Mar 2025 06:45:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssngfez73b"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/naviforce.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY="
         }
       ]
     },

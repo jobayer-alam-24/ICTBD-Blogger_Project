@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blogger.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,Super Admin")]
     public class CategoryController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -24,6 +24,7 @@ namespace Blogger.Controllers
             var categories = await _context.Categories.ToListAsync();
             return View(categories);
         }
+        
         [HttpGet]
         public async Task<IActionResult> Create()
         {
@@ -42,7 +43,7 @@ namespace Blogger.Controllers
                     long size = Image.Length;
                     if(extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-                        if(size <= 100000)
+                        if(size < 1000000000)
                         {
                             string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
                             using (FileStream stream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite))
@@ -109,7 +110,7 @@ namespace Blogger.Controllers
                     long length = Image.Length;
                     if(extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-                        if(length <= 100000)
+                        if(length <= 1000000000)
                         {
                             string path = Path.Combine(webHostEnvironment.WebRootPath, "Category", "Images", Image.FileName);
                             if (!System.IO.File.Exists(path))

@@ -65,7 +65,7 @@ namespace Blogger.Controllers
                     long size = Image.Length;
                     if(extension.Equals(".jpg") || extension.Equals(".jpeg") || extension.Equals(".png"))
                     {
-                        if(size <= 100000)
+                        if(size < 1000000000)
                         {
                             string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
                             using (var fileStream = new FileStream(path, FileMode.Create, FileAccess.ReadWrite, FileShare.Read))
@@ -75,12 +75,14 @@ namespace Blogger.Controllers
                         }
                         else
                         {
+                            await BindSelectListCategories();
                             TempData["size_error"] = "File must be less than 100000";
                             return View(post);
                         }
                     }
                     else
                     {
+                        await BindSelectListCategories();
                         TempData["type_error"] = "File type should be .jpg/.png/.jpeg";
                         return View(post);
                     }
@@ -122,7 +124,7 @@ namespace Blogger.Controllers
                     long size = Image.Length;
                     if (extension.Equals(".jpg") || extension.Equals(".png") || extension.Equals(".jpeg"))
                     {
-                        if(size <= 100000)
+                        if(size < 1000000000)
                         {
                             string path = Path.Combine(_webHostEnvironment.WebRootPath, "Post", "Images", Image.FileName);
                             if (ExistingPosts.Media != Image.FileName)

@@ -25,7 +25,7 @@ namespace Blogger.ViewModel.SignUpViewModel
         [Required(ErrorMessage = "Password is Required"), DataType(DataType.Password), StringLength(12, MinimumLength = 6, ErrorMessage = "Password must be at least 6 to 12 characters!")]
         public string Password { get; set; }
 
-        [Required(ErrorMessage = "Phone Number is Required"), Phone, Range(11, 11, ErrorMessage = "Phone number must be 11 digit")]
+        [Required(ErrorMessage = "Phone Number is Required"), Phone]
         public string PhoneNumber { get; set; }
 
         [Display(Name = "Confirm Password"), Required(ErrorMessage = "Confirm Password is Required"), Compare("Password", ErrorMessage = "Confirm Password does not matched!"), StringLength(12, MinimumLength = 6, ErrorMessage = "Confirm Password must be at least 6 to 12 characters!")]

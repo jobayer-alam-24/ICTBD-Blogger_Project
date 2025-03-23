@@ -14,7 +14,11 @@ public class HomeController : Controller
     {
         return View();
     }
-
+    [Route("/access-denied")]
+    public IActionResult AccessDenied()
+    {
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();

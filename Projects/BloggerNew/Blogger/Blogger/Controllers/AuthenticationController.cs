@@ -42,7 +42,8 @@ namespace Blogger.Controllers
                     LastName = model.LastName,
                     Age = model.Age,
                     Email = model.Email,
-                    PhoneNumber = model.PhoneNumber
+                    PhoneNumber = model.PhoneNumber,
+                    Media = "user.png"
                 };
 
                 var result = await _userManager.CreateAsync(user, model.Password);

@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\Category\\Images\\travel.jpeg"
     },
     {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
+      "PackagePath": "staticwebassets\\Post\\Images\\fonts.png"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\naviforce.jpg",
+      "PackagePath": "staticwebassets\\Post\\Images\\naviforce.jpg"
+    },
+    {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\pexels-sohi-807598.jpg",
       "PackagePath": "staticwebassets\\Post\\Images\\pexels-sohi-807598.jpg"
     },
