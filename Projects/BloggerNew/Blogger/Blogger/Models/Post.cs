@@ -2,6 +2,7 @@ using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Blogger.Data;
 using Blogger.Enums;
 using Blogger.Helpers.CustomAttributes;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -35,8 +36,8 @@ namespace Blogger.Models
         public int CategoryId { get; set; }
         //Navigation Property
         public Category Category { get; set; }
-        [BindNever]
-        public int UserId { get; set; }
+        public ApplicationUser User { get; set; }
+        public string UserId { get; set; }
 
         [MaxLength(50, ErrorMessage = "URL must be below 50 characters.")]
         [Display(Name = "Picture")]
@@ -48,8 +49,6 @@ namespace Blogger.Models
             UpdatedAt = DateTime.UtcNow;
             PublishedAt = DateTime.UtcNow;
             Status = Status.Default;
-            UserId = 1;
-            Media = "/images/default-post.jpg";
         }
     }
 }

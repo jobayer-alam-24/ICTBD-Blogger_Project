@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
 
 namespace Blogger.Controllers
 {
@@ -28,22 +29,22 @@ namespace Blogger.Controllers
             List<Post> posts = new List<Post>();
             if (string.IsNullOrEmpty(search_key) && status == null)
             {
-                posts = await _context.Posts.ToListAsync();
+                posts = await _context.Posts.Include(x => x.Category).Where(x => x.UserId == GetUserID()).ToListAsync();
                 return View(posts);
             }
             else if (status == null && !string.IsNullOrEmpty(search_key))
             {
-                var post = await _context.Posts.Where(x => x.Content.ToLower().Contains(search_key.ToLower())).ToListAsync();
+                var post = await _context.Posts.Include(x => x.Category).Where(x => x.UserId == GetUserID()).Where(x => x.Content.ToLower().Contains(search_key.ToLower())).ToListAsync();
                 return View(post);
             }
             else if (status != null && string.IsNullOrEmpty(search_key))
             {
-                var post = await _context.Posts.Where(x => x.Status == status).ToListAsync();
+                var post = await _context.Posts.Include(x => x.Category).Where(x => x.UserId == GetUserID()).Where(x => x.Status == status).ToListAsync();
                 return View(post);
             }
             else
             {
-                var post = await _context.Posts.Where(x => x.Content.ToLower().Contains(search_key.ToLower()) && x.Status == status).ToListAsync();
+                var post = await _context.Posts.Include(x => x.Category).Where(x => x.UserId == GetUserID()).Where(x => x.Content.ToLower().Contains(search_key.ToLower()) && x.Status == status).ToListAsync();
                 return View(post);
             }
         }
@@ -88,6 +89,7 @@ namespace Blogger.Controllers
                     }
                     
                 }
+                post.UserId = GetUserID();
                 post.CategoryId = CategoryId;
                 post.Slug = post.Title.GetBlogUrl();
                 post.Media = (Image != null && !string.IsNullOrEmpty(Image.FileName)) ? Image.FileName : "NONE";
@@ -164,7 +166,7 @@ namespace Blogger.Controllers
                 ExistingPosts.Slug = post.Title.GetBlogUrl();
                 ExistingPosts.Media = (Image != null && !string.IsNullOrEmpty(Image.FileName)) ? Image.FileName : "NONE";
                 ExistingPosts.Status = post.Status;
-                ExistingPosts.UserId = post.UserId;
+                ExistingPosts.UserId = GetUserID();
                 ExistingPosts.Title = post.Title;
                 ExistingPosts.CategoryId = CategoryId;
                 await _context.SaveChangesAsync(true);
@@ -202,6 +204,10 @@ namespace Blogger.Controllers
                 _context.Posts.Remove(model);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(List));
+        }
+        private string GetUserID()
+        {
+            return User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
         }
         private async Task BindSelectListCategories()
         {

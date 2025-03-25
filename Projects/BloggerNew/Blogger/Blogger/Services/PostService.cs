@@ -17,7 +17,6 @@ namespace Blogger.Services
                     Content = "This is the first post lg",
                     Slug = "first-post",
                     CategoryId = 1,
-                    UserId = 1,
                     Media = "/images/default-post.jpg",
                     Status = Status.Draft
                 },
@@ -27,7 +26,6 @@ namespace Blogger.Services
                     Content = "This is the second post kh",
                     Slug = "second-post",
                     CategoryId = 1,
-                    UserId = 1,
                     Media = "/images/default-post.jpg",
                     Status = Status.Scheduled
                 },
@@ -37,7 +35,6 @@ namespace Blogger.Services
                     Content = "This is the third post gf",
                     Slug = "third-post",
                     CategoryId = 1,
-                    UserId = 1,
                     Media = "/images/default-post.jpg",
                     Status = Status.Default
                 },
@@ -47,7 +44,6 @@ namespace Blogger.Services
                     Content = "This is the fourth post ty",
                     Slug = "fourth-post",
                     CategoryId = 1,
-                    UserId = 1,
                     Media = "/images/default-post.jpg",
                     Status = Status.Default
                 },
@@ -57,7 +53,6 @@ namespace Blogger.Services
                     Content = "This is the fifth post uiy",
                     Slug = "fifth-post",
                     CategoryId = 1,
-                    UserId = 1,
                     Media = "/images/default-post.jpg",
                     Status = Status.Default
                 }

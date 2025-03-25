@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ovdcvkxXGrvfYfwfKL7AyuiA+KFmGPq22y9WkSRfOM0=",
+  "Hash": "dl7Ip9BpJdDZoId/4YN2yEd4yq2heJvaSDaQKZ9AXSk=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -8583,27 +8583,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Post\\Images\\pexels-sohi-807598.jpg"
-    },
-    {
-      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\tech.jpeg",
-      "SourceId": "Blogger",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
-      "BasePath": "_content/Blogger",
-      "RelativePath": "Post/Images/tech#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uchdhm6tvz",
-      "Integrity": "4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Post\\Images\\tech.jpeg"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\Images\\user.png",
@@ -31283,7 +31262,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 13:46:36 GMT"
+          "Value": "Tue, 25 Mar 2025 04:16:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31320,7 +31299,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 13:46:36 GMT"
+          "Value": "Tue, 25 Mar 2025 04:16:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31365,7 +31344,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 13:46:36 GMT"
+          "Value": "Tue, 25 Mar 2025 04:16:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31410,7 +31389,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 19 Mar 2025 13:46:36 GMT"
+          "Value": "Tue, 25 Mar 2025 04:16:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41357,7 +41336,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:43:48 GMT"
+          "Value": "Tue, 25 Mar 2025 02:25:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41402,7 +41381,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:43:48 GMT"
+          "Value": "Tue, 25 Mar 2025 02:25:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41439,7 +41418,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:45:59 GMT"
+          "Value": "Tue, 25 Mar 2025 02:22:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41476,7 +41455,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 06:45:59 GMT"
+          "Value": "Tue, 25 Mar 2025 02:22:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -41577,88 +41556,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Kv4gjZhnZF/JkL+xZzh0CO3WDEB12QsQIQmCUJWxVoM="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/tech.jpeg",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\tech.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9097"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 14:19:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/tech.uchdhm6tvz.jpeg",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\tech.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9097"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 14:19:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uchdhm6tvz"
-        },
-        {
-          "Name": "label",
-          "Value": "Post/Images/tech.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU="
         }
       ]
     },

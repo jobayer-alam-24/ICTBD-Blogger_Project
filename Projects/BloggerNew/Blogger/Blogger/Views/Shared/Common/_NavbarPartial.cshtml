@@ -1,6 +1,8 @@
 @inject UserManager<ApplicationUser> UserManager
+
 @{
-    var user = await UserManager.GetUserAsync(User);
+    var loggedUserId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+    var user = await UserManager.FindByIdAsync(loggedUserId);
 }
 <header id="page-topbar">
     <div class="navbar-header">
@@ -417,7 +419,7 @@
                 <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
                     data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 					<img src="~/User/Images/user.png" alt="Alternate Text" height="22" />
-                    <span class="d-none d-xl-inline-block ms-1" key="t-henry">@user?.UserName</span>
+                    <span class="d-none d-xl-inline-block ms-1" key="t-henry">@user?.FirstName @user?.LastName</span>
                     <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
                 </button>
                 <div class="dropdown-menu dropdown-menu-end">

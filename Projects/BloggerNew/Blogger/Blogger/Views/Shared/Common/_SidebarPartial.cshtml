@@ -93,12 +93,16 @@
                                             </a>
                                         </li>
                                     }
-                                    <li>
-                                        <a asp-action="List" asp-controller="User" class="waves-effect">
-                                            <i class='bx bxs-user-circle'></i>
-                                            <span key="t-calendar">User</span>
-                                        </a>
-                                    </li>
+                                    @if (User.IsInRole("Admin") || User.IsInRole("Super Admin"))
+                                    {
+                                        <li>
+                                            <a asp-action="List" asp-controller="User" class="waves-effect">
+                                                <i class='bx bxs-user-circle'></i>
+                                                <span key="t-calendar">User</span>
+                                            </a>
+                                        </li>
+                                    }
+                                    
                                     @if(User.IsInRole("Admin") || User.IsInRole("Super Admin"))
                                     {
                                         <li>
@@ -108,26 +112,23 @@
                                             </a>
                                         </li>
                                     }
-                                    <li>
-                                        <a href="/sign-up" class="waves-effect">
-                                            <i class='bx bx-user-plus'></i>
-                                            <span key="t-calendar">Sign-Up</span>
-                                        </a>
-                                    </li>
+                                    
                                     <li>
                                         @if(_signInManager.IsSignedIn(User))
                                         {
                                             <a href="/sign-out" onclick="return confirm('Are you sure you want to Log Out?')" class="waves-effect">
-                                                <i class="bx bx-log-out"></i>
-                                                <span key="t-calendar">Sing-Out</span>
+                                                <i class="bx bx-log-out text-danger"></i>
+                                                <span key="t-calendar" class="text-danger">Sign-Out</span>
                                             </a>
                                         }
                                         else
                                         {
-                                            <a href="/sign-in" class="waves-effect">
-                                                <i class="bx bx-log-in"></i>
-                                                <span key="t-calendar">Sing-In</span>
+                                        <li>
+                                            <a href="/sign-up" class="waves-effect">
+                                                <i class='bx bx-user-plus'></i>
+                                                <span key="t-calendar">Sign-Up</span>
                                             </a>
+                                        </li>
                                         }
                                     </li>
                                 </ul>
