@@ -1,0 +1,101 @@
+﻿@using Blogger.Data
+@model ApplicationUser
+
+@{
+    ViewData["Title"] = "Edit User";
+}
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml"
+         model='("Create A User", "/", "Dashboard", "User")'></partial>
+@if (TempData["type_error"] != null)
+{
+    <div class="mt-2 alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["type_error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+@if (TempData["size_error"] != null)
+{
+    <div class="mt-2 alert alert-danger alert-dismissible fade show" role="alert">
+        @TempData["size_error"]
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+<div class="container mt-4">
+    <div class="card shadow-lg p-4 rounded">
+        <h2 class="text-center text-primary mb-4">📝 Edit User</h2>
+
+        <form asp-action="Edit" method="post" enctype="multipart/form-data" class="needs-validation">
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="FirstName" class="form-label fw-bold"></label>
+                    <input asp-for="FirstName" class="form-control" placeholder="Enter first name" required />
+                    <span asp-validation-for="FirstName" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label asp-for="LastName" class="form-label fw-bold"></label>
+                    <input asp-for="LastName" class="form-control" placeholder="Enter last name" required />
+                    <span asp-validation-for="LastName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Age" class="form-label fw-bold"></label>
+                    <input asp-for="Age" type="number" class="form-control" placeholder="Enter age" min="1" required />
+                    <span asp-validation-for="Age" class="text-danger"></span>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Email" class="form-label fw-bold"></label>
+                    <input asp-for="Email" type="email" class="form-control" placeholder="Enter email" required />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="PhoneNumber" class="form-label fw-bold">Phone Number</label>
+                    <input asp-for="PhoneNumber" type="text" class="form-control" placeholder="Enter Phone Number" required />
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label asp-for="Media" class="form-label fw-bold">Upload Profile Image</label>
+                    <input type="file" id="ProfileImage" asp-for="Media" name="Image" class="form-control" accept="image/*" required onchange="previewImage(event)" />
+                </div>
+
+                <div class="col-md-6 mb-3 text-center">
+                    <img id="imagePreview" src="#" alt="Image Preview" class="img-thumbnail" style="display: none; max-width: 150px;" />
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center mt-4">
+                <button type="submit" class="btn btn-success px-4">✅ Save Changes</button>
+                <a asp-action="List" class="btn btn-secondary ms-3">↩️ Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        function previewImage(event) {
+            var reader = new FileReader();
+            reader.onload = function () {
+                var output = document.getElementById('imagePreview');
+                output.src = reader.result;
+                output.style.display = 'block';
+            };
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+}

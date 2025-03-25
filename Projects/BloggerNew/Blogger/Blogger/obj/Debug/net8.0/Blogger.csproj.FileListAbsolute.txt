@@ -796,8 +796,6 @@ D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\ru
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_AuthLayout.cshtml.rz.scp.css
-D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\bundle\Blogger.styles.css
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\projectbundle\Blogger.bundle.scp.css
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\staticwebassets.build.json
@@ -816,3 +814,5 @@ D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\re
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\Blogger.pdb
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\Blogger.genruntimeconfig.cache
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\ref\Blogger.dll
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_AuthLayout.cshtml.rz.scp.css
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

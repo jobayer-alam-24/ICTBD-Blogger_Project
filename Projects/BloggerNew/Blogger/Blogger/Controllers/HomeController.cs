@@ -7,19 +7,11 @@ using Blogger.Data;
 
 namespace Blogger.Controllers;
 
+
 [Authorize]
 public class HomeController : Controller
 {
     public IActionResult Index()
-    {
-        return View();
-    }
-    [Route("/access-denied")]
-    public IActionResult AccessDenied()
-    {
-        return View();
-    }
-    public IActionResult Privacy()
     {
         return View();
     }

@@ -1,0 +1,49 @@
+﻿@using Blogger.ViewModel.UserRoleViewModel
+@model List<UserRoleViewModel>
+@{
+    ViewData["Title"] = "Assign Role To User";
+}
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml"
+model='("Assign Role To User", "/", "Dashboard", "Roles")' />
+<div asp-validation-summary="All" class="text-danger"></div>
+<form asp-action="AssignUserRole" asp-controller="Role" method="post" asp-route-roleid="@ViewBag.RoleId">
+<div class="card shadow-lg border-0 mt-4">
+        <div class="card-header bg-secodary bg-info text-white">
+            <h2 class="card-title mb-0">Assign <span class="text-light fw-bold">@ViewBag.RoleName</span> to Users</h2>
+        </div>
+        <div class="card-body">
+            <ul class="list-group list-group-flush">
+                @if (Model.Any())
+                {
+                    int length = Model.Count;
+                    for(int i = 0; i < length; i++)
+                    {
+                        <li class="list-group-item">
+                            <input type="hidden" asp-for="@Model[i].UserId" />
+                            <input type="checkbox" asp-for="@Model[i].IsSelected"/>
+                            <label asp-for="@Model[i].IsSelected">@Model[i].UserName</label>
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li class="list-group-item text-muted">No users available</li>
+                }
+        
+        </ul>
+    </div>
+    <div class="card-footer d-flex justify-content-end gap-2 bg-light">
+        <button class="btn btn-secondary" type="button" id="cancelBtn">
+                <a asp-action="EditRole" asp-controller="Role" class="text-white" asp-route-roleid="@ViewBag.RoleId">Cancel</a>
+        </button>
+        <button class="btn btn-success" type="submit" id="updateBtn">
+           Update
+        </button>
+    </div>
+    </form>
+</div>
+
+@section Scripts
+{
+    <partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml"></partial>
+}
