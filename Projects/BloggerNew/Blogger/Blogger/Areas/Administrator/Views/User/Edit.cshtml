@@ -24,7 +24,7 @@
     <div class="card shadow-lg p-4 rounded">
         <h2 class="text-center text-primary mb-4">📝 Edit User</h2>
 
-        <form asp-action="Edit" method="post" enctype="multipart/form-data" class="needs-validation">
+        <form href="~/Administrator/User/Edit" method="post" enctype="multipart/form-data" class="needs-validation">
             <div asp-validation-summary="All" class="text-danger"></div>
 
             <div class="row">
@@ -76,7 +76,7 @@
 
             <div class="d-flex justify-content-center mt-4">
                 <button type="submit" class="btn btn-success px-4">✅ Save Changes</button>
-                <a asp-action="List" class="btn btn-secondary ms-3">↩️ Cancel</a>
+                <a href="~/Administrator/User/List" class="btn btn-secondary ms-3">↩️ Cancel</a>
             </div>
         </form>
     </div>

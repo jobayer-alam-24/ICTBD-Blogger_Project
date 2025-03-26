@@ -3,11 +3,12 @@
 @{
     ViewData["Title"] = "Assign Role To User";
 }
-<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml"
-model='("Assign Role To User", "/", "Dashboard", "Roles")' />
+<partial name="~/Views/Shared/Common/_TitleNavigationPartial.cshtml" model='("Assign Role To User", "/", "Dashboard", "Roles")' />
 <div asp-validation-summary="All" class="text-danger"></div>
-<form asp-action="AssignUserRole" asp-controller="Role" method="post" asp-route-roleid="@ViewBag.RoleId">
-<div class="card shadow-lg border-0 mt-4">
+
+<form action="/Administrator/Role/AssignUserRole?roleid=@ViewBag.RoleId"  method="post">
+    @Html.AntiForgeryToken()
+    <div class="card shadow-lg border-0 mt-4">
         <div class="card-header bg-secodary bg-info text-white">
             <h2 class="card-title mb-0">Assign <span class="text-light fw-bold">@ViewBag.RoleName</span> to Users</h2>
         </div>
@@ -16,11 +17,11 @@ model='("Assign Role To User", "/", "Dashboard", "Roles")' />
                 @if (Model.Any())
                 {
                     int length = Model.Count;
-                    for(int i = 0; i < length; i++)
+                    for (int i = 0; i < length; i++)
                     {
                         <li class="list-group-item">
                             <input type="hidden" asp-for="@Model[i].UserId" />
-                            <input type="checkbox" asp-for="@Model[i].IsSelected"/>
+                            <input type="checkbox" asp-for="@Model[i].IsSelected" />
                             <label asp-for="@Model[i].IsSelected">@Model[i].UserName</label>
                         </li>
                     }
@@ -29,19 +30,14 @@ model='("Assign Role To User", "/", "Dashboard", "Roles")' />
                 {
                     <li class="list-group-item text-muted">No users available</li>
                 }
-        
-        </ul>
+            </ul>
+        </div>
+        <div class="card-footer d-flex justify-content-end gap-2 bg-light">
+            <a href="~/Administrator/Role/EditRole?roleid=@ViewBag.RoleId" class="btn btn-secondary text-white">Cancel</a>
+            <button class="btn btn-success" type="submit" id="updateBtn">Update</button>
+        </div>
     </div>
-    <div class="card-footer d-flex justify-content-end gap-2 bg-light">
-        <button class="btn btn-secondary" type="button" id="cancelBtn">
-                <a asp-action="EditRole" asp-controller="Role" class="text-white" asp-route-roleid="@ViewBag.RoleId">Cancel</a>
-        </button>
-        <button class="btn btn-success" type="submit" id="updateBtn">
-           Update
-        </button>
-    </div>
-    </form>
-</div>
+</form>
 
 @section Scripts
 {

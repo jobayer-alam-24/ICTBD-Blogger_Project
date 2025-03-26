@@ -15,7 +15,7 @@
 
 <div class="row mt-3">
 	<div class="col-12">
-		<form asp-action="List" method="get" class="d-flex mb-3 align-items-center">
+		<form href="~/Administrator/Post/List" method="get" class="d-flex mb-3 align-items-center">
 			<input type="search"
 				   class="form-control me-2"
 				   placeholder="Search Posts..."
@@ -35,7 +35,7 @@
 
 <div class="row">
 	<p class="col-12 text-end">
-		<a asp-action="Create" role="button" class="btn btn-info fs-5">Add New Blog</a>
+		<a href="~/Administrator/Post/Create" role="button" class="btn btn-info fs-5">Add New Blog</a>
 	</p>
 </div>
 
@@ -74,11 +74,10 @@
 								</td>
 								<td>
 									<div class="d-flex gap-2 align-items-center justify-content-center">
-										<a asp-action="Edit" asp-route-id="@post.Id" class="btn btn-primary">Edit</a>
-										<a asp-action="Details" class="btn btn-info" asp-route-id="@post.Id">View</a>
-										<form asp-route-id="@post.Id" asp-action="Delete" method="post">
-											<button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?')">Delete</button>
-										</form>
+										<a href="~/Administrator/Post/Edit/@post.Id" class="btn btn-primary">Edit</a>
+										<a href="~/Administrator/Post/Details/@post.Id" class="btn btn-info">View</a>
+											<a href="~/Administrator/Post/Delete/@post.Id" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?')">Delete</a>
+									
 									</div>
 								</td>
 							</tr>

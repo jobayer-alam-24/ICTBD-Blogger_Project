@@ -44,7 +44,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 var result = await _roleManager.CreateAsync(role);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction(nameof(List));
+                    return Redirect("~/Administrator/Role/List");
                 }
                 foreach (var error in result.Errors)
                 {
@@ -54,7 +54,7 @@ namespace Blogger.Areas.Administrator.Controllers
             }
             return BadRequest("Invalid Role!");
         }
-        public async Task<IActionResult> EditRole(string roleid)
+        public async Task<IActionResult> EditRole([FromQuery] string roleid)
         {
 
             var role = await _roleManager.Roles.FirstOrDefaultAsync(x => x.Id == roleid);
@@ -70,7 +70,7 @@ namespace Blogger.Areas.Administrator.Controllers
 
                 return View(roleWithUsers);
             }
-            return RedirectToAction(nameof(List));
+            return Redirect("~/Administrator/Role/List");
 
         }
         [HttpPost]
@@ -90,7 +90,7 @@ namespace Blogger.Areas.Administrator.Controllers
 
                     if (result.Succeeded)
                     {
-                        return RedirectToAction(nameof(List));
+                        return Redirect("~/Administrator/Role/List");
                     }
 
                     foreach (var error in result.Errors)
@@ -102,7 +102,7 @@ namespace Blogger.Areas.Administrator.Controllers
             }
             return BadRequest("Invalid Role!");
         }
-        [Route("/AssginUserRole")]
+        
         public async Task<IActionResult> AssignUserRole(string roleid)
         {
             if (roleid == null) return BadRequest("Role Id is not Provided!");
@@ -126,10 +126,9 @@ namespace Blogger.Areas.Administrator.Controllers
             }
             return BadRequest("Role Not Found");
         }
-        [Route("/AssginUserRole")]
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> AssignUserRole(string roleid, List<UserRoleViewModel> models)
+        public async Task<IActionResult> AssignUserRole([FromQuery] string roleid, List<UserRoleViewModel> models)
         {
             if (string.IsNullOrWhiteSpace(roleid)) return BadRequest("Role id is not Provided");
             var role = await _roleManager.FindByIdAsync(roleid);
@@ -151,7 +150,7 @@ namespace Blogger.Areas.Administrator.Controllers
             }
             if (result.Succeeded)
             {
-                return RedirectToAction("EditRole", new { roleid = role.Id });
+                return Redirect($"~/Administrator/Role/EditRole?roleid={role.Id}");
             }
             else
             {
@@ -164,7 +163,7 @@ namespace Blogger.Areas.Administrator.Controllers
 
         }
 
-        public async Task<IActionResult> DeleteRole(string id)
+        public async Task<IActionResult> DeleteRole([FromQuery] string id)
         {
             var role = await _roleManager.FindByIdAsync(id);
             if (role is not null)
@@ -172,11 +171,11 @@ namespace Blogger.Areas.Administrator.Controllers
                 var result = await _roleManager.DeleteAsync(role);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction(nameof(List));
+                    return Redirect("~/Administrator/Role/List");
                 }
                 if (result.Succeeded)
                 {
-                    return RedirectToAction(nameof(List));
+                    return Redirect("~/Administrator/Role/List");
                 }
 
                 foreach (var error in result.Errors)

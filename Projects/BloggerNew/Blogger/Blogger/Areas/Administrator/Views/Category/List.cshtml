@@ -8,7 +8,7 @@
 
 <div class="row">
     <p class="col-12 text-end">
-        <a asp-action="Create" role="button" class="btn btn-info fs-5">Add New Category</a>
+        <a href="~/Administrator/Category/Create" role="button" class="btn btn-info fs-5">Add New Category</a>
     </p>
 </div>
 
@@ -58,9 +58,9 @@
                                 <td>@Html.Raw(@category.Content)</td>
                                 <td>
                                     <div class="d-flex gap-2 align-items-center justify-content-center">
-                                        <a asp-action="Edit" asp-route-id="@category.Id" class="btn btn-primary">Edit</a>
-                                        <a asp-action="Details" asp-route-id="@category.Id" class="btn btn-info">View</a>
-                                        <form asp-action="Delete" asp-route-id="@category.Id">
+                                        <a href="~/Administrator/Category/Edit/@category.Id" class="btn btn-primary">Edit</a>
+                                        <a href="~/Administrator/Category/Details/@category.Id"  class="btn btn-info">View</a>
+                                        <form href="~/Administrator/Category/Delete/@category.Id">
                                             <button type="submit" class="btn btn-danger" onclick="return confirm('Are You Sure You want to Delete This Category?')">Delete</button>
                                         </form>
                                     </div>

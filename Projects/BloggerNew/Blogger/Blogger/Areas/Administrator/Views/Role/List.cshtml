@@ -8,7 +8,7 @@
 
 <div class="row">
     <p class="col-12 text-end">
-        <a asp-action="AddNewRole" role="button" class="btn btn-info fs-5">Add New Role</a>
+        <a href="~/Administrator/Role/AddNewRole" role="button" class="btn btn-info fs-5">Add New Role</a>
     </p>
 </div>
 
@@ -33,10 +33,8 @@
                             <td class="text-capitalize">@role.Description</td>
                             <td>
                                 <div class="d-flex gap-2 align-items-center justify-content-center">
-                                    <a asp-action="EditRole" asp-route-roleid="@role.Id" class="btn btn-sm btn-primary">Edit</a>
-                                    <form asp-action="DeleteRole" asp-route-roleid="@role.Id">
-                                        <button type="submit" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this role?')">Delete</button>
-                                    </form>
+                                    <a href="~/Administrator/Role/EditRole?roleid=@role.Id" class="btn btn-sm btn-primary">Edit</a>
+                                        <a href="~/Administrator/Role/DeleteRole?id=@role.Id" class="btn btn-sm btn-danger" onclick="return confirm('Are you sure you want to delete this role?')">Delete</a>
                                 </div>
                             </td>
                         </tr>

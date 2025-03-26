@@ -23,7 +23,7 @@
 	</div>
 }
 <div class="card">
-	<form asp-action="Create" method="post" enctype="multipart/form-data">
+	<form href="~/Administrator/Category/Create" method="post" enctype="multipart/form-data">
 		<div class="text-danger" asp-validation-summary="All"></div>
 		<div class="card-body">
 			<div class="mb-3 row">
@@ -76,7 +76,7 @@
 			@Html.AntiForgeryToken()
 			<button type="submit" class="btn btn-primary">Save</button>
 			<button class="btn btn-secondary">
-				<a asp-action="Lists" style="text-decoration: none;" class="text-white">Cancel</a>
+				<a href="~/Administrator/Category/List" style="text-decoration: none;" class="text-white">Cancel</a>
 			</button>
 		</div>
 	</form>

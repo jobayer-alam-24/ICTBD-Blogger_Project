@@ -17,7 +17,7 @@
 <div class="card p-4">
     <div class="card-body">
         <h2 class="text-center">Create New Role</h2>
-        <form asp-action="AddNewRole" method="post">
+        <form href="~/Administrator/Role/AddNewRole" method="post">
             <div asp-validation-summary="All" class="text-danger"></div>
             <div class="mb-3">
                 <label asp-for="Name" class="form-label">Role Name</label>
@@ -32,7 +32,7 @@
             </div>
             <div class="text-center">
                 <button type="submit" class="btn btn-success">Create</button>
-                <a asp-action="List" class="btn btn-secondary">Cancel</a>
+                <a href="~/Administrator/Role/List" class="btn btn-secondary">Cancel</a>
             </div>
         </form>
     </div>

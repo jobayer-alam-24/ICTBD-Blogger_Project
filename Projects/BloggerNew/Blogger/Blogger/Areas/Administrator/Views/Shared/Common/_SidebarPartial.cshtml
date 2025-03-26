@@ -18,7 +18,7 @@
                                     <li class="menu-title" key="t-menu">Menu</li>
 
                                     <li class="mm-active">
-                                        <a asp-action="Index" asp-controller="Home" class="waves-effect mm-active">
+                                        <a href="/Home/Index" class="waves-effect mm-active">
                                             <i class="bx bx-home-circle"></i><span
                                                 class="badge rounded-pill bg-info float-end">04</span>
                                             <span key="t-dashboards">Dashboards</span>
@@ -79,7 +79,7 @@
                                     <li class="menu-title" key="t-apps">Apps</li>
 
                                     <li>
-                                        <a asp-action="List" asp-controller="Post" class="waves-effect">
+                                        <a href="/Administrator/Post/List" class="waves-effect">
                                             <i class="bx bx-edit"></i>
                                             <span key="t-calendar">Posts</span>
                                         </a>
@@ -87,7 +87,7 @@
                                     @if(User.IsInRole("Admin") || User.IsInRole("Super Admin"))
                                     {
                                         <li>
-                                            <a asp-action="Lists" asp-controller="Category" class="waves-effect">
+                                            <a href="/Administrator/Category/List" class="waves-effect">
                                                 <i class='bx bx-category'></i>
                                                 <span key="t-calendar">Categories</span>
                                             </a>
@@ -96,7 +96,7 @@
                                     @if (User.IsInRole("Admin") || User.IsInRole("Super Admin"))
                                     {
                                         <li>
-                                            <a asp-action="List" asp-controller="User" class="waves-effect">
+                                            <a href="/Administrator/User/List" class="waves-effect">
                                                 <i class='bx bxs-user-circle'></i>
                                                 <span key="t-calendar">User</span>
                                             </a>
@@ -106,7 +106,7 @@
                                     @if(User.IsInRole("Admin") || User.IsInRole("Super Admin"))
                                     {
                                         <li>
-                                            <a asp-action="List" asp-controller="Role" class="waves-effect">
+                                            <a href="/Administrator/Role/List" class="waves-effect">
                                                 <i class='bx bxs-user-badge text-2xl text-blue-500'></i>
                                                 <span key="t-calendar">Roles</span>
                                             </a>

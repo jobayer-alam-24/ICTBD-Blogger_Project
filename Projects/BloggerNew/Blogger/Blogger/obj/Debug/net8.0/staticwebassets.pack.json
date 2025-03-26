@@ -29,8 +29,452 @@
       "PackagePath": "staticwebassets\\Post\\Images\\pexels-sohi-807598.jpg"
     },
     {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\Images\\sona_bouuuu.png",
+      "PackagePath": "staticwebassets\\User\\Images\\sona_bouuuu.png"
+    },
+    {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\Images\\user.png",
       "PackagePath": "staticwebassets\\User\\Images\\user.png"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\User\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\about\\about-wide-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\about\\about-wide-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-hero-2.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-hero-2.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-10.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-10.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-2.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-2.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-3.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-3.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-4.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-4.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-5.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-5.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-6.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-6.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-7.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-7.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-9.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-9.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-portrait-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-portrait-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-portrait-2.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-portrait-2.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-portrait-3.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-portrait-3.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-portrait-4.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-portrait-4.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-portrait-5.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-portrait-5.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-square-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-square-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-square-2.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-square-2.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-square-3.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-square-3.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-square-4.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-square-4.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\blog\\blog-post-square-5.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\blog\\blog-post-square-5.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\cta\\cta-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\cta\\cta-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\logo.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\logo.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\misc\\misc-1.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\misc\\misc-1.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-12.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-12.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-13.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-13.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-14.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-14.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-15.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-15.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-4.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-4.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-7.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-7.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-8.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-8.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-f-9.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-f-9.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-10.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-10.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-11.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-11.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-12.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-12.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-5.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-5.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-6.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-6.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-7.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-7.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\img\\person\\person-m-9.webp",
+      "PackagePath": "staticwebassets\\User\\assets\\img\\person\\person-m-9.webp"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\User\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\scss\\Readme.txt",
+      "PackagePath": "staticwebassets\\User\\assets\\scss\\Readme.txt"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\aos\\aos.cjs.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\aos\\aos.cjs.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\aos\\aos.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\aos\\aos.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\aos\\aos.esm.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\aos\\aos.esm.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\aos\\aos.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\aos\\aos.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\aos\\aos.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\aos\\aos.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.scss"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap-icons\\fonts\\bootstrap-icons.woff2"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\css\\prb.txt",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\css\\prb.txt"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\bootstrap\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\glightbox\\css\\glightbox.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\glightbox\\css\\glightbox.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\glightbox\\js\\glightbox.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\glightbox\\js\\glightbox.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\php-email-form\\validate.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\php-email-form\\validate.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\purecounter\\purecounter_vanilla.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\purecounter\\purecounter_vanilla.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\purecounter\\purecounter_vanilla.js.map"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\vendor\\swiper\\swiper-bundle.min.js.map",
+      "PackagePath": "staticwebassets\\User\\assets\\vendor\\swiper\\swiper-bundle.min.js.map"
     },
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\assets\\MyImages\\no_image.png",

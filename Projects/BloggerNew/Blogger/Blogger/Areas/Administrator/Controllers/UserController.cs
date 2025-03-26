@@ -27,7 +27,7 @@ namespace Blogger.Areas.Administrator.Controllers
         {
             return View();
         }
-        public async Task<IActionResult> Details(string id)
+        public async Task<IActionResult> Details([FromRoute]string id)
         {
             var user = await _userManager.FindByIdAsync(id);
             if (user is not null)
@@ -99,7 +99,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 var result = await _userManager.CreateAsync(applicationUser);
                 if (result.Succeeded)
                 {
-                    return RedirectToAction(nameof(List));
+                    return Redirect("~/Administrator/User/List");
                 }
                 foreach (var error in result.Errors)
                 {
@@ -165,7 +165,7 @@ namespace Blogger.Areas.Administrator.Controllers
                     var result = await _userManager.UpdateAsync(existingUser);
                     if (result.Succeeded)
                     {
-                        return RedirectToAction(nameof(List));
+                        return Redirect("~/Administrator/User/List");
                     }
                     foreach (var error in result.Errors)
                     {
@@ -175,7 +175,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 }
                 return BadRequest("Invalid User.");
             }
-            return RedirectToAction(nameof(List));
+            return Redirect("~/Administrator/User/List");
         }
         public async Task<IActionResult> Delete(string id)
         {
@@ -188,9 +188,9 @@ namespace Blogger.Areas.Administrator.Controllers
                     System.IO.File.Delete(path);
                 }
                 await _userManager.DeleteAsync(user);
-                return RedirectToAction(nameof(List));
+                return Redirect("~/Administrator/User/List");
             }
-            return RedirectToAction(nameof(List));
+            return Redirect("~/Administrator/User/List");
         }
 
     }

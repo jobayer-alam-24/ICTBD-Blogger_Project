@@ -97,7 +97,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 await _context.Posts.AddAsync(post);
                 await _context.SaveChangesAsync();
                 TempData["success-messege"] = "Post created successfully!";
-                return RedirectToAction("List");
+                return Redirect("~/Administrator/Post/List");
             }
             ModelState.AddModelError(" ", "Check Required Fields!");
             await BindSelectListCategories();
@@ -172,7 +172,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 ExistingPosts.CategoryId = CategoryId;
                 await _context.SaveChangesAsync(true);
                 TempData["success-messege"] = "Post Updated Successfully!";
-                return RedirectToAction(nameof(List));
+                return Redirect("~/Administrator/Post/List");
             }
             ModelState.AddModelError(" ", "Check Required Fields!");
             await BindSelectListCategories();
@@ -188,8 +188,6 @@ namespace Blogger.Areas.Administrator.Controllers
                 return View(model);
             return NotFound("Post Not Found!");
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             if (id <= 0)
@@ -204,7 +202,7 @@ namespace Blogger.Areas.Administrator.Controllers
             }
             _context.Posts.Remove(model);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(List));
+            return Redirect("~/Administrator/Post/List"); 
         }
         private string GetUserID()
         {
