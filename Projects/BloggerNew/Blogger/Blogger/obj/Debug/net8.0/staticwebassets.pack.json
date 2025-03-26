@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blogger.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Blogger.eas4rq9z3y.bundle.scp.css"
+      "PackagePath": "staticwebassets\\Blogger.53ac9bxiru.bundle.scp.css"
     },
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\education.png",
@@ -11,10 +11,6 @@
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\health.jpg",
       "PackagePath": "staticwebassets\\Category\\Images\\health.jpg"
-    },
-    {
-      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\tech.jpeg",
-      "PackagePath": "staticwebassets\\Category\\Images\\tech.jpeg"
     },
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\travel.jpeg",

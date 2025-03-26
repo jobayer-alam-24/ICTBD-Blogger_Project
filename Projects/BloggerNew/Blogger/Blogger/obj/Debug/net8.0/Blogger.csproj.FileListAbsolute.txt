@@ -816,3 +816,5 @@ D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\Bl
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\ref\Blogger.dll
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_AuthLayout.cshtml.rz.scp.css
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Areas\Administrator\Views\Shared\_AuthLayout.cshtml.rz.scp.css
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\scopedcss\Areas\Administrator\Views\Shared\_Layout.cshtml.rz.scp.css

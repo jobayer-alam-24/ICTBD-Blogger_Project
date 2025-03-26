@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blogger.Areas.Administrator.Controllers
 {
-    [Area("Administrator")]
     [Authorize(Roles = "Admin,Super Admin")]
+    [Area("Administrator")]
     public class RoleController : Controller
     {
         private readonly RoleManager<ApplicationRole> _roleManager;

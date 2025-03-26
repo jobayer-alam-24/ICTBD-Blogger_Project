@@ -19,7 +19,6 @@ namespace Blogger.Areas.Administrator.Controllers
             _context = _CONTEXT;
             this.webHostEnvironment = webHostEnvironment;
         }
-        [Route("/Category/Lists")]
         public async Task<IActionResult> List()
         {
             var categories = await _context.Categories.ToListAsync();

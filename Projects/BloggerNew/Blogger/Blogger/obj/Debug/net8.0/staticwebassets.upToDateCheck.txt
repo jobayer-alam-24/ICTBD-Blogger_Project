@@ -276,7 +276,6 @@ wwwroot\assets\libs\tui-time-picker\tui-time-picker.min.js
 wwwroot\assets\MyImages\no_image.png
 wwwroot\Category\Images\education.png
 wwwroot\Category\Images\health.jpg
-wwwroot\Category\Images\tech.jpeg
 wwwroot\Category\Images\travel.jpeg
 wwwroot\css\site.css
 wwwroot\favicon.ico

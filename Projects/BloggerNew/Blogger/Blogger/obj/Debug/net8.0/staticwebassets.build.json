@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NPFRUWsc2fTkBpwjNIjXrOXBHbPdF/C+XgL4LcSLw0s=",
+  "Hash": "2i0pewRMB0mwwnuUfGUXZmssDVAE1FtWvcHjjStyO9E=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -1354,8 +1354,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "eas4rq9z3y",
-      "Integrity": "yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=",
+      "Fingerprint": "53ac9bxiru",
+      "Integrity": "EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blogger.styles.css"
@@ -1375,8 +1375,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "eas4rq9z3y",
-      "Integrity": "yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=",
+      "Fingerprint": "53ac9bxiru",
+      "Integrity": "EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blogger.bundle.scp.css"
@@ -7218,27 +7218,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Category\\Images\\health.jpg"
-    },
-    {
-      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\tech.jpeg",
-      "SourceId": "Blogger",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
-      "BasePath": "_content/Blogger",
-      "RelativePath": "Category/Images/tech#[.{fingerprint}]?.jpeg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "uchdhm6tvz",
-      "Integrity": "4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Category\\Images\\tech.jpeg"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\travel.jpeg",
@@ -31240,6 +31219,96 @@
       ]
     },
     {
+      "Route": "Blogger.53ac9bxiru.bundle.scp.css",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blogger.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 03:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53ac9bxiru"
+        },
+        {
+          "Name": "label",
+          "Value": "Blogger.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA="
+        }
+      ]
+    },
+    {
+      "Route": "Blogger.53ac9bxiru.styles.css",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blogger.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4548"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 03:53:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53ac9bxiru"
+        },
+        {
+          "Name": "label",
+          "Value": "Blogger.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA="
+        }
+      ]
+    },
+    {
       "Route": "Blogger.bundle.scp.css",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blogger.bundle.scp.css",
       "Selectors": [],
@@ -31250,7 +31319,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2254"
+          "Value": "4548"
         },
         {
           "Name": "Content-Type",
@@ -31258,11 +31327,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=\""
+          "Value": "\"EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:35:37 GMT"
+          "Value": "Wed, 26 Mar 2025 03:53:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31272,97 +31341,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8="
-        }
-      ]
-    },
-    {
-      "Route": "Blogger.eas4rq9z3y.bundle.scp.css",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Blogger.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2254"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:35:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eas4rq9z3y"
-        },
-        {
-          "Name": "label",
-          "Value": "Blogger.bundle.scp.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8="
-        }
-      ]
-    },
-    {
-      "Route": "Blogger.eas4rq9z3y.styles.css",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Blogger.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2254"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:35:37 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "eas4rq9z3y"
-        },
-        {
-          "Name": "label",
-          "Value": "Blogger.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8="
+          "Value": "sha256-EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA="
         }
       ]
     },
@@ -31377,7 +31356,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2254"
+          "Value": "4548"
         },
         {
           "Name": "Content-Type",
@@ -31385,11 +31364,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8=\""
+          "Value": "\"EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 13:35:37 GMT"
+          "Value": "Wed, 26 Mar 2025 03:53:17 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -31399,7 +31378,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yqSedIKqcyzcZIt09bQmfimSvCxfbp3j9Bjw4pWScX8="
+          "Value": "sha256-EQPJ1abJcc9yqTZbABqA5n5XNHmYYiSwDSWENkZVpkA="
         }
       ]
     },
@@ -31564,88 +31543,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-Nfx6YnDCBmm46aOq/kMFqb8EwUPfJOT8UFN72eu8W+M="
-        }
-      ]
-    },
-    {
-      "Route": "Category/Images/tech.jpeg",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\tech.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9097"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 14:19:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU="
-        }
-      ]
-    },
-    {
-      "Route": "Category/Images/tech.uchdhm6tvz.jpeg",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\tech.jpeg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "9097"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 17 Mar 2025 14:19:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "uchdhm6tvz"
-        },
-        {
-          "Name": "label",
-          "Value": "Category/Images/tech.jpeg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-4v11jKAgM2Cu7HuEqeXzPMn5j+iSAfltCzPaP2/r2eU="
         }
       ]
     },
