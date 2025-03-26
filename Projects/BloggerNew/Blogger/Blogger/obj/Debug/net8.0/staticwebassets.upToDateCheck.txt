@@ -274,6 +274,7 @@ wwwroot\assets\libs\tui-dom\tui-dom.min.js
 wwwroot\assets\libs\tui-time-picker\tui-time-picker.min.css
 wwwroot\assets\libs\tui-time-picker\tui-time-picker.min.js
 wwwroot\assets\MyImages\no_image.png
+wwwroot\Category\Images\cleanings.jpg
 wwwroot\Category\Images\education.png
 wwwroot\Category\Images\health.jpg
 wwwroot\Category\Images\travel.jpeg
@@ -337,9 +338,14 @@ wwwroot\lib\jquery-validation\LICENSE.md
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\Post\Images\clean.jpg
+wwwroot\Post\Images\cleanings.jpg
+wwwroot\Post\Images\fitness.jpg
 wwwroot\Post\Images\fonts.png
 wwwroot\Post\Images\naviforce.jpg
+wwwroot\Post\Images\NET Roadmap.png
 wwwroot\Post\Images\pexels-sohi-807598.jpg
+wwwroot\Post\Images\travel.jpg
 wwwroot\User\assets\css\main.css
 wwwroot\User\assets\img\about\about-wide-1.webp
 wwwroot\User\assets\img\apple-touch-icon.png

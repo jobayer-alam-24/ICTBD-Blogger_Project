@@ -1,0 +1,90 @@
+﻿@using Microsoft.EntityFrameworkCore
+@inject ApplicationDbContext _context
+@{
+    var posts = await _context.Posts.Include(x => x.Category).Include(x => x.User).Where(x => x.Status == Status.Published).OrderByDescending(x => x.CreatedAt).Take(5).ToListAsync();
+    var length = posts.Count;
+}
+<section id="blog-hero" class="blog-hero section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="blog-grid">
+            <!-- Featured Post (Large) -->
+            @if(length >= 1)
+            {
+                <article class="blog-item featured" data-aos="fade-up">
+                    <img src="~/Post/Images/@posts[0].Media" alt="Blog Image" class="img-fluid">
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="date">@posts[0].CreatedAt.ToString("MMM. dd'th', yyyy")</span>
+                            <span class="category">@posts[0].Category.Name</span>
+                        </div>
+                        <h2 class="post-title">
+                            <a href="blog-details.html" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit">@posts[0].Title</a>
+                        </h2>
+                    </div>
+                </article>
+            }
+
+            <!-- End Featured Post -->
+            <!-- Regular Posts -->
+            @if(length >= 2)
+            {
+                <article class="blog-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="~/Post/Images/@posts[1].Media" alt="Blog Image" class="img-fluid">
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="date">@posts[1].CreatedAt.ToString("MMM. dd'th', yyyy")</span>
+                            <span class="category">@posts[1].Category.Name</span>
+                        </div>
+                        <h3 class="post-title">
+                            <a href="blog-details.html" title="Sed do eiusmod tempor incididunt ut labore">@posts[1].Title</a>
+                        </h3>
+                    </div>
+                </article>
+
+                <!-- End Blog Item -->
+            }
+
+            @if(length >= 3)
+            {
+                <article class="blog-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="~/Post/Images/@posts[2].Media" alt="Blog Image" class="img-fluid">
+                    <div class="blog-content">
+                        <div class="post-meta">
+                            <span class="date">@posts[2].CreatedAt.ToString("MMM. dd'th', yyyy")/span>
+                                <span class="category">@posts[2].Category.Name</span>
+                        </div>
+                        <h3 class="post-title">
+                            <a href="blog-details.html" title="Ut enim ad minim veniam, quis nostrud exercitation">@posts[2].Title</a>
+                        </h3>
+                    </div>
+                </article>
+            }
+            <!-- End Blog Item -->
+
+            @if(length >= 4)
+            {
+                foreach(var post in posts.Skip(3))
+                {
+                    <article class="blog-item" data-aos="fade-up" data-aos-delay="200">
+                        <img src="~/Post/Images/@post.Media" alt="Blog Image" class="img-fluid">
+                        <div class="blog-content">
+                            <div class="post-meta">
+                                <span class="date">
+                                    @post.CreatedAt.ToString("MMM. dd'th', yyyy")/span>
+                                    <span class="category">@post.Category.Name</span>
+                            </div>
+                            <h3 class="post-title">
+                                <a href="blog-details.html" title="Ut enim ad minim veniam, quis nostrud exercitation">@post.Title</a>
+                            </h3>
+                        </div>
+                    </article>
+                }
+            }
+            <!-- End Blog Item -->
+        </div>
+
+    </div>
+
+</section>

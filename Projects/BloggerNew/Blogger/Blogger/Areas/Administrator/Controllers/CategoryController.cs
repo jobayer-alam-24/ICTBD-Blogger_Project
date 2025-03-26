@@ -74,7 +74,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 };
                 await _context.Categories.AddAsync(setCategory);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(List));
+                return Redirect("~/Administrator/Category/List");
             }
             else
             {

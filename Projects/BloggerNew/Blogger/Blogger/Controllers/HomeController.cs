@@ -8,9 +8,9 @@ using Blogger.Data;
 namespace Blogger.Controllers;
 
 
-[Authorize]
 public class HomeController : Controller
 {
+
     public IActionResult Index()
     {
         return View();

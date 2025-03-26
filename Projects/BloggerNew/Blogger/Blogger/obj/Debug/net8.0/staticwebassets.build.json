@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tKRouYQyjnuxjZGvuM/tPLuWimea1FVtLdRRvU+X810=",
+  "Hash": "Ql/ImR4/Skf7yb6oRSxQbquCZlDruRL9Rn5o1R7EXP0=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -7178,6 +7178,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\MyImages\\no_image.png"
     },
     {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\cleanings.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Category/Images/cleanings#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fknpdfu570",
+      "Integrity": "jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Category\\Images\\cleanings.jpg"
+    },
+    {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\education.png",
       "SourceId": "Blogger",
       "SourceType": "Discovered",
@@ -8501,6 +8522,69 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/clean#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u071hh98d3",
+      "Integrity": "zv4bBhiElPobGE2c45VPEKQ44r64nV8USjP+duC2gnM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\clean.jpg"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\cleanings.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/cleanings#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "fknpdfu570",
+      "Integrity": "jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\cleanings.jpg"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fitness.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/fitness#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kvwf19b5kh",
+      "Integrity": "0FY2RRtz8BbYCBxwGf/fjOcRJmsI/AKeOoo5pDUYAZ8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\fitness.jpg"
+    },
+    {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
       "SourceId": "Blogger",
       "SourceType": "Discovered",
@@ -8543,6 +8627,27 @@
       "OriginalItemSpec": "wwwroot\\Post\\Images\\naviforce.jpg"
     },
     {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/NET Roadmap#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ti7aqm5v57",
+      "Integrity": "azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\NET Roadmap.png"
+    },
+    {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\pexels-sohi-807598.jpg",
       "SourceId": "Blogger",
       "SourceType": "Discovered",
@@ -8562,6 +8667,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Post\\Images\\pexels-sohi-807598.jpg"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/travel#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vbtgbl5yvs",
+      "Integrity": "eye0GIjk/A8wKud3778oIIYfFsG/D+CgwHsMqHARVO8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\travel.jpg"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\User\\assets\\css\\main.css",
@@ -33714,6 +33840,88 @@
       ]
     },
     {
+      "Route": "Category/Images/cleanings.fknpdfu570.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\cleanings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:06:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fknpdfu570"
+        },
+        {
+          "Name": "label",
+          "Value": "Category/Images/cleanings.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
+      "Route": "Category/Images/cleanings.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\cleanings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:06:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
       "Route": "Category/Images/education.png",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\education.png",
       "Selectors": [],
@@ -43542,6 +43750,252 @@
       ]
     },
     {
+      "Route": "Post/Images/clean.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv4bBhiElPobGE2c45VPEKQ44r64nV8USjP+duC2gnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:26:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zv4bBhiElPobGE2c45VPEKQ44r64nV8USjP+duC2gnM="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/clean.u071hh98d3.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zv4bBhiElPobGE2c45VPEKQ44r64nV8USjP+duC2gnM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:26:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u071hh98d3"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/clean.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zv4bBhiElPobGE2c45VPEKQ44r64nV8USjP+duC2gnM="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/cleanings.fknpdfu570.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\cleanings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "fknpdfu570"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/cleanings.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/cleanings.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\cleanings.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5237"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fitness.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fitness.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FY2RRtz8BbYCBxwGf/fjOcRJmsI/AKeOoo5pDUYAZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FY2RRtz8BbYCBxwGf/fjOcRJmsI/AKeOoo5pDUYAZ8="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fitness.kvwf19b5kh.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fitness.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6044"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0FY2RRtz8BbYCBxwGf/fjOcRJmsI/AKeOoo5pDUYAZ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:03:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kvwf19b5kh"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/fitness.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0FY2RRtz8BbYCBxwGf/fjOcRJmsI/AKeOoo5pDUYAZ8="
+        }
+      ]
+    },
+    {
       "Route": "Post/Images/fonts.78wm0ficky.png",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fonts.png",
       "Selectors": [],
@@ -43564,7 +44018,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 02:25:13 GMT"
+          "Value": "Wed, 26 Mar 2025 20:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -43609,7 +44063,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 25 Mar 2025 02:25:13 GMT"
+          "Value": "Wed, 26 Mar 2025 20:39:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -43706,6 +44160,88 @@
       ]
     },
     {
+      "Route": "Post/Images/NET Roadmap.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4322319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/NET Roadmap.ti7aqm5v57.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4322319"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ti7aqm5v57"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/NET Roadmap.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
+        }
+      ]
+    },
+    {
       "Route": "Post/Images/pexels-sohi-807598.6obnrnro1e.jpg",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\pexels-sohi-807598.jpg",
       "Selectors": [],
@@ -43784,6 +44320,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Kv4gjZhnZF/JkL+xZzh0CO3WDEB12QsQIQmCUJWxVoM="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/travel.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eye0GIjk/A8wKud3778oIIYfFsG/D+CgwHsMqHARVO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eye0GIjk/A8wKud3778oIIYfFsG/D+CgwHsMqHARVO8="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/travel.vbtgbl5yvs.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\travel.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9595"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eye0GIjk/A8wKud3778oIIYfFsG/D+CgwHsMqHARVO8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Mar 2025 20:02:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vbtgbl5yvs"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/travel.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eye0GIjk/A8wKud3778oIIYfFsG/D+CgwHsMqHARVO8="
         }
       ]
     },

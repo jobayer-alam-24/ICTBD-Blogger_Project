@@ -12,7 +12,6 @@ using System.Security.Claims;
 namespace Blogger.Areas.Administrator.Controllers
 {
     [Area("Administrator")]
-    [Authorize]
     public class PostController : Controller
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
