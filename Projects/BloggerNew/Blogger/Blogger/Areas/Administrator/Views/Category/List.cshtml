@@ -60,9 +60,9 @@
                                     <div class="d-flex gap-2 align-items-center justify-content-center">
                                         <a href="~/Administrator/Category/Edit/@category.Id" class="btn btn-primary">Edit</a>
                                         <a href="~/Administrator/Category/Details/@category.Id"  class="btn btn-info">View</a>
-                                        <form href="~/Administrator/Category/Delete/@category.Id">
-                                            <button type="submit" class="btn btn-danger" onclick="return confirm('Are You Sure You want to Delete This Category?')">Delete</button>
-                                        </form>
+                                        
+                                            <a href="~/Administrator/Category/Delete/@category.Id" class="btn btn-danger" onclick="return confirm('Are You Sure You want to Delete This Category?')">Delete</a>
+                                        
                                     </div>
                                 </td>
                             </tr>

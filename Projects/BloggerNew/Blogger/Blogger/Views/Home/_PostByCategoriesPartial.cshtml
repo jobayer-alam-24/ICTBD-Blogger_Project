@@ -1,0 +1,113 @@
+﻿@inject ApplicationDbContext _context
+@{
+    var categories = await _context.Categories.OrderByDescending(x => x.Id).Include(x => x.Posts)
+                                     .ThenInclude(x => x.User).Take(3).ToListAsync();
+    var posts = await _context.Posts.Where(x => x.Status == Status.Published).OrderByDescending(x => x.PublishedAt).ToListAsync();
+}
+<section id="category-section" class="category-section section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Category Section</h2>
+        <div> <span class="description-title">Category Section</span></div>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <!-- Featured Posts -->
+        @if (categories.Any() && posts.Any())
+        {
+            <div class="row gy-4 mb-4">
+                <div class="col-lg-4">
+                    <article class="featured-post">
+                        <div class="post-img">
+                            <img src="@categories[0].Media.GetCategoryImageUrl()" alt="" class="img-fluid" loading="lazy">
+                        </div>
+                        <div class="post-content">
+                            <div class="category-meta">
+                                <span class="post-category">@categories[0].Name</span>
+                                <div class="author-meta">
+                                    <img src="~/User/assets/img/person/person-f-13.webp" alt="" class="author-img">
+                                    <span class="author-name">@User.FindFirst(ClaimTypes.Name)?.Value.Replace("@gmail.com", ".")</span>
+                                    <span class="post-date">@categories[0].Posts[0].CreatedAt.ToString("dd MMMM yyyy")</span>
+                                </div>
+                            </div>
+                            @if (categories[0].Posts.Count > 0)
+                            {
+                                <h2 class="title">
+                                    <a href="~/Details/@categories[0].Posts[0].Slug">@Html.Raw(@categories[0].Posts[0].Content)</a>
+                                </h2>
+                            }
+                        </div>
+                    </article>
+                </div>
+                @if (categories.Any())
+                {
+                    @foreach (var category in categories.Skip(1))
+                    {
+                        <div class="col-lg-4">
+                            <article class="featured-post">
+                                <div class="post-img">
+                                    <img src="@category.Media.GetCategoryImageUrl()" alt="" class="img-fluid" loading="lazy">
+                                </div>
+                                <div class="post-content">
+                                    <div class="category-meta">
+                                        <span class="post-category">@category.Name</span>
+                                        <div class="author-meta">
+                                            <img src="~/User/assets/img/person/person-m-10.webp" alt="" class="author-img">
+                                            <span class="author-name">@User.FindFirst(ClaimTypes.Name)?.Value.Replace("@gmail.com", ".")</span>
+                                            <span class="post-date">@category.Posts[0].CreatedAt.ToString("dd MMMM yyyy")</span>
+                                        </div>
+                                    </div>
+                                    @if (category.Posts.Count > 1)
+                                    {
+                                        <h2 class="title">
+                                            <a href="~/Details/@category.Posts[1].Slug">@Html.Raw(@category.Posts[1].Content)</a>
+                                        </h2>
+                                    }
+                                </div>
+                            </article>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <h4 class="text-muted">No Categories Found</h4>
+                }
+            </div>
+        }
+
+        <!-- List Posts -->
+        <div class="row">
+            @if (posts.Any())
+            {
+                @foreach (var post in posts)
+                {
+                    <div class="col-xl-4 col-lg-6">
+                        <article class="list-post">
+                            <div class="post-img">
+                                <img src="@post.Media.GetBlogImageUrl()" alt="" class="img-fluid" loading="lazy">
+                            </div>
+                            <div class="post-content">
+                                <div class="category-meta">
+                                    <span class="post-category">@post.Title</span>
+                                </div>
+                                <h3 class="title">
+                                    <a href="~/Details/@post.Slug">@Html.Raw(@post.Content)</a>
+                                </h3>
+                                <div class="post-meta">
+                                    <span class="read-time">2 mins read</span>
+                                    <span class="post-date">@post.CreatedAt.ToString("dd MMMM yyyy")</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                }
+            }
+            else
+            {
+                <h4 class="text-muted">No Posts Found</h4>
+            }
+        </div>
+    </div>
+
+</section>

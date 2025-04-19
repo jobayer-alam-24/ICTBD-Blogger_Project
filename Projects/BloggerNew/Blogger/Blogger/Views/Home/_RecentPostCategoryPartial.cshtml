@@ -1,0 +1,31 @@
+﻿@inject ApplicationDbContext _context;
+@{
+	var recentPosts = _context.Posts
+		.Where(p => p.Status == Status.Published)
+		.OrderByDescending(p => p.CreatedAt)
+		.Take(5)
+		.ToList();
+}
+<div class="recent-posts-widget widget-item">
+
+    <h3 class="widget-title">Recent Posts</h3>
+	@if (recentPosts.Count > 0)
+	{
+		foreach (var post in recentPosts)
+		{
+			<div class="post-item">
+				<img src="@post.Media.GetBlogImageUrl()" alt="" class="flex-shrink-0">
+				<div>
+					<h4><a href="/Details/@post.Slug">@post.Title</a></h4>
+					<time datetime="@post.CreatedAt.ToString("yyyy-MM-dd")">@post.CreatedAt.ToString("MMM d, yyyy")</time>
+				</div>
+			</div>
+		}
+	}
+	else
+	{
+		<p>No recent posts available.</p>
+	}
+    <!-- End recent post item-->
+
+</div>

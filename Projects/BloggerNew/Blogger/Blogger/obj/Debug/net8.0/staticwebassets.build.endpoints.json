@@ -249,6 +249,88 @@
       ]
     },
     {
+      "Route": "Category/Images/fatty.jpg",
+      "AssetFile": "Category/Images/fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:04:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        }
+      ]
+    },
+    {
+      "Route": "Category/Images/fatty.jwx9bg7ljy.jpg",
+      "AssetFile": "Category/Images/fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:04:22 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwx9bg7ljy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        },
+        {
+          "Name": "label",
+          "Value": "Category/Images/fatty.jpg"
+        }
+      ]
+    },
+    {
       "Route": "Category/Images/health.3a6s1tkqz4.jpg",
       "AssetFile": "Category/Images/health.jpg",
       "Selectors": [],
@@ -2744,45 +2826,8 @@
       ]
     },
     {
-      "Route": "Post/Images/NET Roadmap.png",
-      "AssetFile": "Post/Images/NET Roadmap.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4322319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/NET Roadmap.ti7aqm5v57.png",
-      "AssetFile": "Post/Images/NET Roadmap.png",
+      "Route": "Post/Images/bestquote.byijozeip3.png",
+      "AssetFile": "Post/Images/bestquote.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2795,7 +2840,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4322319"
+          "Value": "2485976"
         },
         {
           "Name": "Content-Type",
@@ -2803,25 +2848,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
+          "Value": "\"TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
+          "Value": "Sat, 19 Apr 2025 05:38:24 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ti7aqm5v57"
+          "Value": "byijozeip3"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
+          "Value": "sha256-TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs="
         },
         {
           "Name": "label",
-          "Value": "Post/Images/NET Roadmap.png"
+          "Value": "Post/Images/bestquote.png"
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/bestquote.png",
+      "AssetFile": "Post/Images/bestquote.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2485976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 05:38:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs="
         }
       ]
     },
@@ -2934,7 +3016,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+          "Value": "Sat, 19 Apr 2025 08:39:09 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2979,13 +3061,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+          "Value": "Sat, 19 Apr 2025 08:39:09 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fatty.jpg",
+      "AssetFile": "Post/Images/fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:10:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fatty.jwx9bg7ljy.jpg",
+      "AssetFile": "Post/Images/fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:10:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwx9bg7ljy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/fatty.jpg"
         }
       ]
     },

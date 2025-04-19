@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\areas\\administrator\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\areas\\administrator\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\home\\_recentpostcategorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\home\\_recentpostcategorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,40 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Blogger\\Views\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Blogger\\Views\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "_RecentPostCategoryPartial.cshtml",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
+              "RelativeDocumentMoniker": "Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
+              "RelativeToolTip": "Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T01:09:35.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Blogger\\Areas\\Administrator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Blogger\\Areas\\Administrator\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T01:09:08.021Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "Blogger\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "Blogger\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T00:51:38.095Z",
+              "WhenOpened": "2025-04-19T09:23:03.18Z",
               "EditorCaption": ""
             }
           ]

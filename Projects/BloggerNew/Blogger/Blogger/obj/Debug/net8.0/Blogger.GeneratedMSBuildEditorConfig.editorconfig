@@ -140,6 +140,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -150,6 +154,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/_HeroBlogPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfSGVyb0Jsb2dQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/_PostByCategoriesPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUG9zdEJ5Q2F0ZWdvcmllc1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/_PostDetailsCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUG9zdERldGFpbHNDYXRlZ29yeVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Home/_RecentPostCategoryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxfUmVjZW50UG9zdENhdGVnb3J5UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ICTBD-Blogger_Project/Projects/BloggerNew/Blogger/Blogger/Views/Shared/Common/_FooterPartial.cshtml]

@@ -1,5 +1,4 @@
-﻿@using Microsoft.EntityFrameworkCore
-@inject ApplicationDbContext _context
+﻿@inject ApplicationDbContext _context
 @{
     var posts = await _context.Posts.Include(x => x.Category).Include(x => x.User).Where(x => x.Status == Status.Published).OrderByDescending(x => x.CreatedAt).Take(5).ToListAsync();
     var length = posts.Count;

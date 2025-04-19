@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\Category\\Images\\education.png"
     },
     {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\fatty.jpg",
+      "PackagePath": "staticwebassets\\Category\\Images\\fatty.jpg"
+    },
+    {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\health.jpg",
       "PackagePath": "staticwebassets\\Category\\Images\\health.jpg"
     },
@@ -21,8 +25,8 @@
       "PackagePath": "staticwebassets\\Category\\Images\\travel.jpeg"
     },
     {
-      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
-      "PackagePath": "staticwebassets\\Post\\Images\\NET Roadmap.png"
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\bestquote.png",
+      "PackagePath": "staticwebassets\\Post\\Images\\bestquote.png"
     },
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
@@ -31,6 +35,10 @@
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\cleanings.jpg",
       "PackagePath": "staticwebassets\\Post\\Images\\cleanings.jpg"
+    },
+    {
+      "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fatty.jpg",
+      "PackagePath": "staticwebassets\\Post\\Images\\fatty.jpg"
     },
     {
       "Id": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fitness.jpg",

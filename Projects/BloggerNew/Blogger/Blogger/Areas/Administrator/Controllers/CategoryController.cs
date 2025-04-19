@@ -146,7 +146,7 @@ namespace Blogger.Areas.Administrator.Controllers
                     ExistingModel.Media = Image != null && !string.IsNullOrEmpty(Image.FileName) ? Image.FileName : "NONE";
                     await _context.SaveChangesAsync();
                 }
-                return RedirectToAction(nameof(List));
+                return Redirect("~/Administrator/Category/List");
             }
             else
             {
@@ -164,8 +164,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 return View(model);
             return NotFound("Categories Not Found!");
         }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
+        
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
             if (id <= 0)
@@ -194,7 +193,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 _context.Categories.RemoveRange(models);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction(nameof(List));
+            return Redirect("~/Administrator/Category/List");
         }
         [HttpPost]
         public JsonResult CheckCategory(string categoryName)

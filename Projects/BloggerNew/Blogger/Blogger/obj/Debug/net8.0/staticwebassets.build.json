@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ql/ImR4/Skf7yb6oRSxQbquCZlDruRL9Rn5o1R7EXP0=",
+  "Hash": "AGdZG9r2ZrSQRmwvIccnp1LS3UJVvDqMYe9XnS7nS9o=",
   "Source": "Blogger",
   "BasePath": "_content/Blogger",
   "Mode": "Default",
@@ -7220,6 +7220,27 @@
       "OriginalItemSpec": "wwwroot\\Category\\Images\\education.png"
     },
     {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\fatty.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Category/Images/fatty#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwx9bg7ljy",
+      "Integrity": "4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Category\\Images\\fatty.jpg"
+    },
+    {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\health.jpg",
       "SourceId": "Blogger",
       "SourceType": "Discovered",
@@ -8522,6 +8543,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\bestquote.png",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/bestquote#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "byijozeip3",
+      "Integrity": "TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\bestquote.png"
+    },
+    {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
       "SourceId": "Blogger",
       "SourceType": "Discovered",
@@ -8562,6 +8604,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Post\\Images\\cleanings.jpg"
+    },
+    {
+      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fatty.jpg",
+      "SourceId": "Blogger",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
+      "BasePath": "_content/Blogger",
+      "RelativePath": "Post/Images/fatty#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jwx9bg7ljy",
+      "Integrity": "4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Post\\Images\\fatty.jpg"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fitness.jpg",
@@ -8625,27 +8688,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Post\\Images\\naviforce.jpg"
-    },
-    {
-      "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
-      "SourceId": "Blogger",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\",
-      "BasePath": "_content/Blogger",
-      "RelativePath": "Post/Images/NET Roadmap#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "ti7aqm5v57",
-      "Integrity": "azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Post\\Images\\NET Roadmap.png"
     },
     {
       "Identity": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\pexels-sohi-807598.jpg",
@@ -34004,6 +34046,88 @@
       ]
     },
     {
+      "Route": "Category/Images/fatty.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        }
+      ]
+    },
+    {
+      "Route": "Category/Images/fatty.jwx9bg7ljy.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:04:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwx9bg7ljy"
+        },
+        {
+          "Name": "label",
+          "Value": "Category/Images/fatty.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        }
+      ]
+    },
+    {
       "Route": "Category/Images/health.3a6s1tkqz4.jpg",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Category\\Images\\health.jpg",
       "Selectors": [],
@@ -43750,6 +43874,88 @@
       ]
     },
     {
+      "Route": "Post/Images/bestquote.byijozeip3.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\bestquote.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2485976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 05:38:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "byijozeip3"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/bestquote.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/bestquote.png",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\bestquote.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2485976"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 05:38:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TTWeADiXcszgZFIDcgxbPIXTYo0HAGtgcpwBryY3aZs="
+        }
+      ]
+    },
+    {
       "Route": "Post/Images/clean.jpg",
       "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\clean.jpg",
       "Selectors": [],
@@ -43854,7 +44060,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+          "Value": "Sat, 19 Apr 2025 08:39:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -43899,7 +44105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:08:41 GMT"
+          "Value": "Sat, 19 Apr 2025 08:39:09 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -43910,6 +44116,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jyyhgkojJis6/6PnOf1zp9YafVqZpTfIZCx+pK0eVd0="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fatty.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:10:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
+        }
+      ]
+    },
+    {
+      "Route": "Post/Images/fatty.jwx9bg7ljy.jpg",
+      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\fatty.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "39808"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 19 Apr 2025 09:10:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jwx9bg7ljy"
+        },
+        {
+          "Name": "label",
+          "Value": "Post/Images/fatty.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4+5aI6hnptIYgnUVK1grlCxboJ3K34qCQvPunXP+J6c="
         }
       ]
     },
@@ -44156,88 +44444,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-hMz8+JoA63XjfByXxQ1VsFNghsjbg8tPqXsZurDyoRY="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/NET Roadmap.png",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4322319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
-        }
-      ]
-    },
-    {
-      "Route": "Post/Images/NET Roadmap.ti7aqm5v57.png",
-      "AssetFile": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\wwwroot\\Post\\Images\\NET Roadmap.png",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4322319"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/png"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Mar 2025 20:00:18 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ti7aqm5v57"
-        },
-        {
-          "Name": "label",
-          "Value": "Post/Images/NET Roadmap.png"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-azlelMBbKNrD6cL9o/l7tVM02U+WSf9LSFoHSm/nbyE="
         }
       ]
     },
