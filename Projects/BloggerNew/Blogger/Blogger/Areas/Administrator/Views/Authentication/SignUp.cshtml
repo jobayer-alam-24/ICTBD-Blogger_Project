@@ -31,7 +31,8 @@
                 </a>
             </div>
             <div class="p-2">
-                <form class="needs-validation" asp-action="SignUp" asp-controller="Authentication">
+                <form class="needs-validation" asp-action="SignUp" method="post" asp-controller="Authentication">
+                    @Html.AntiForgeryToken()
                     <div asp-validation-summary="All" class="text-danger"></div>
                     <div class="row">
                         <div class="col-md-6">
@@ -85,7 +86,7 @@
                     </div>
 
                     <div class="mt-4 d-grid">
-                        <button class="btn btn-primary waves-effect waves-light" type="submit">Register</button>
+                        <button class="btn btn-primary" type="submit">Register</button>
                     </div>
 
                     <div class="mt-4 text-center">
@@ -128,26 +129,32 @@
 @section Scripts
 {
     <script>
-        $(document).ready(function() {
-            var btn = $("#confirmBtn");
-            var inputPassword = $("#confirmPass");
-            var mainPassBtn = $("#PassBtn");
-            var mainPass = $("#Pass");
-            togglePassword(btn, inputPassword);
-            togglePassword(mainPassBtn, mainPass);
-            function togglePassword(btn, inputPassword) {
-            btn.on("click", function () {
-                var type = inputPassword.attr("type");
-                if (type == "text") {
-                    inputPassword.attr("type", "password");
-                    btn.text("show");
-                } else {
-                    inputPassword.attr("type", "text");
-                    btn.text("hide"); 
-                }
+        // $(document).ready(function() {
+        //     var btn = $("#confirmBtn");
+        //     var inputPassword = $("#confirmPass");
+        //     var mainPassBtn = $("#PassBtn");
+        //     var mainPass = $("#Pass");
+        //     togglePassword(btn, inputPassword);
+        //     togglePassword(mainPassBtn, mainPass);
+        //     function togglePassword(btn, inputPassword) {
+        //     btn.on("click", function () {
+        //         var type = inputPassword.attr("type");
+        //         if (type == "text") {
+        //             inputPassword.attr("type", "password");
+        //             btn.text("show");
+        //         } else {
+        //             inputPassword.attr("type", "text");
+        //             btn.text("hide"); 
+        //         }
+        //     });
+        // }
+        // });
+                $(document).ready(function() {
+            $("form").on("submit", function(event) {
+                console.log("Form submitted");
             });
-        }
         });
+
     </script>
     <partial name="~/Views/Shared/_ValidationScriptsPartial.cshtml"></partial>
 }

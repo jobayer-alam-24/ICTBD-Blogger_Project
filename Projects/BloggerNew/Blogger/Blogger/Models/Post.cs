@@ -42,7 +42,7 @@ namespace Blogger.Models
         [MaxLength(50, ErrorMessage = "URL must be below 50 characters.")]
         [Display(Name = "Picture")]
         public string Media { get; set; } 
-
+        public List<Comment> Comments { get; set; } = new List<Comment>();
         public Post()
         {
             CreatedAt = DateTime.UtcNow;

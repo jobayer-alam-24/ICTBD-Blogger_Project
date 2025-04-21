@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using Blogger.Models;
 using Microsoft.AspNetCore.Identity;
 
 namespace Blogger.Data
@@ -16,5 +17,6 @@ namespace Blogger.Data
         [Range(5, 80, ErrorMessage = "Age must be within 80 to use Blogger!")]
         public int Age { get; set; }
         public string Media { get; set; }
+        public List<Comment> Comments { get; set; } = new List<Comment>();
     }
 }

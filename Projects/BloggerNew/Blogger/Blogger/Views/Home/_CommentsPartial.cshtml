@@ -1,0 +1,104 @@
+﻿@model Post
+@{
+    var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+}
+
+@if (Model.Comments.Any())
+{
+    <section id="blog-comments" class="blog-comments section">
+
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="blog-comments-3">
+                <div class="section-header">
+                    <h3>Discussion <span class="comment-count">(@Model.Comments.Count)</span></h3>
+                </div>
+
+                <div class="comments-wrapper">
+                    <!-- First Comment -->
+                    <article class="comment-card">
+                        <div class="comment-header">
+                            <div class="user-info">
+                                <img src="~/User/Images/@Model.Comments[0].ApplicationUser.Media" alt="User avatar" loading="lazy">
+                                <div class="meta">
+                                    <h4 class="name">@Model.Comments[0].ApplicationUser.FirstName</h4>
+                                    <span class="date"><i class="bi bi-calendar3"></i>@Model.Comments[0].CommentedAt</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-content">
+                            <p>@Model.Comments[0].Content</p>
+                        </div>
+                        <div class="comment-actions">
+                            <button class="action-btn like-btn">
+                                <i class="bi bi-hand-thumbs-up"></i>
+                                <span>12</span>
+                            </button>
+                            <button class="action-btn reply-btn">
+                                <i class="bi bi-reply"></i>
+                                <span>Reply</span>
+                            </button>
+                            @if (User.Identity.IsAuthenticated && userId == Model.Comments[0].ApplicationUserId.ToString())
+                            {
+                                <form asp-action="DeleteComment" asp-controller="Home" method="post">
+                                    <input type="hidden" name="commentId" value="@Model.Comments[0].Id" />
+                                    <input type="hidden" name="UserId" value="@Model.Comments[0].ApplicationUser.Id" />
+                                    <input type="hidden" asp-for="Id" value="@Model.Id" />
+                                    <input type="hidden" asp-for="Slug" value="@Model.Slug" />
+                                    <button class="action-btn delete-btn" type="submit">
+                                        <i class="bi bi-trash"></i>
+                                        <span>Delete</span>
+                                    </button>
+                                </form>
+                            }
+                        </div>
+                    </article>
+
+                    <!-- Remaining Comments -->
+                    @foreach (var comment in Model.Comments.Skip(1))
+                    {
+                        <article class="comment-card">
+                            <div class="comment-header">
+                                <div class="user-info">
+                                    <img src="~/User/Images/@comment.ApplicationUser.Media" alt="User avatar" loading="lazy">
+                                    <div class="meta">
+                                        <h4 class="name">@comment.ApplicationUser.FirstName</h4>
+                                        <span class="date"><i class="bi bi-calendar3"></i>@comment.CommentedAt</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="comment-content">
+                                <p>@comment.Content</p>
+                            </div>
+                            <div class="comment-actions">
+                                <button class="action-btn like-btn">
+                                    <i class="bi bi-hand-thumbs-up"></i>
+                                    <span>12</span>
+                                </button>
+                                <button class="action-btn reply-btn">
+                                    <i class="bi bi-reply"></i>
+                                    <span>Reply</span>
+                                </button>
+                                @if (userId == comment.ApplicationUserId.ToString() && User.Identity.IsAuthenticated)
+                                {
+                                    <form asp-action="DeleteComment" asp-controller="Home" method="post">
+                                        <input type="hidden" name="commentId" value="@comment.Id" />
+                                        <input type="hidden" name="UserId" value="@comment.ApplicationUser.Id" />
+                                        <input type="hidden" asp-for="Id" value="@Model.Id" />
+                                        <input type="hidden" asp-for="Slug" value="@Model.Slug" />
+                                        <button class="action-btn delete-btn" type="submit">
+                                            <i class="bi bi-trash"></i>
+                                            <span>Delete</span>
+                                        </button>
+                                    </form>
+                                }
+                            </div>
+                        </article>
+                    }
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+}

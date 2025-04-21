@@ -15,7 +15,7 @@ namespace Blogger.ViewModel.SignUpViewModel
         [StringLength(50, ErrorMessage = "Last Name should be less than 50 characters!")]
         public string LastName { get; set; }
 
-        [Remote("IsEmailInUsed", "Authentication")]
+        //[Remote("IsEmailInUsed", "Authentication")]
         [Required(ErrorMessage = "Email is Required"), EmailAddress, DataType(DataType.EmailAddress)]
         public string Email { get; set; }
 

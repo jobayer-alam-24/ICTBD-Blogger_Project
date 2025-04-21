@@ -125,7 +125,7 @@ namespace Blogger.Areas.Administrator.Controllers
                 {
                     return Json($"{email} is already taken!");
                 }
-                return Json(true);
+                return Json(false);
             }
             return BadRequest("Email is not Provided!");
         }

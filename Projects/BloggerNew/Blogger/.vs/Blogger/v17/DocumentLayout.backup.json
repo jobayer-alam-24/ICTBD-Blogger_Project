@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\home\\_recentpostcategorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\home\\_recentpostcategorypartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -27,19 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_RecentPostCategoryPartial.cshtml",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
-              "RelativeDocumentMoniker": "Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
-              "RelativeToolTip": "Blogger\\Views\\Home\\_RecentPostCategoryPartial.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-19T09:23:03.18Z",
-              "EditorCaption": ""
             }
           ]
         }
