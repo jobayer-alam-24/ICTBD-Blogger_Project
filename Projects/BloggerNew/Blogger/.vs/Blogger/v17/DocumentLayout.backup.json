@@ -1,16 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\views\\shared\\common\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\views\\shared\\common\\_sidebarpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,31 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Program.cs",
-              "RelativeDocumentMoniker": "Blogger\\Program.cs",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Program.cs",
-              "RelativeToolTip": "Blogger\\Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T09:03:19.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_SidebarPartial.cshtml",
-              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Shared\\Common\\_SidebarPartial.cshtml",
-              "RelativeDocumentMoniker": "Blogger\\Views\\Shared\\Common\\_SidebarPartial.cshtml",
-              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Views\\Shared\\Common\\_SidebarPartial.cshtml",
-              "RelativeToolTip": "Blogger\\Views\\Shared\\Common\\_SidebarPartial.cshtml",
-              "ViewState": "AgIAANEAAAAAAAAAAAAuwOsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T08:45:51.276Z",
-              "EditorCaption": ""
             }
           ]
         }
