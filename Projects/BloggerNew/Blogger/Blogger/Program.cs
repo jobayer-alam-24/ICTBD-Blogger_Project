@@ -1,4 +1,7 @@
+using Blogger.Areas.Administrator.Models;
 using Blogger.Data;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Authorization;
@@ -27,7 +30,9 @@ builder.Services.Configure<IdentityOptions>(options =>
 {
     options.SignIn.RequireConfirmedEmail = false;
 });
-
+builder.Services.AddFluentValidationAutoValidation();
+builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddTransient<IValidator<Person>, PersonValidator>();
 //builder.Services.AddMvc(options =>
 //{
 //    var policy = new AuthorizationPolicyBuilder()

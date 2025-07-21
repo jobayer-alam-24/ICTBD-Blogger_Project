@@ -817,3 +817,7 @@ D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\rj
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\obj\Debug\net8.0\Blogger.MvcApplicationPartsAssemblyInfo.cs
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\FluentValidation.dll
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\ICTBD-Blogger_Project\Projects\BloggerNew\Blogger\Blogger\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

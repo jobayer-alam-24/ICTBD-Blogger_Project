@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\areas\\administrator\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\areas\\administrator\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\areas\\administrator\\models\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\areas\\administrator\\models\\personvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\areas\\administrator\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\areas\\administrator\\views\\person\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|d:\\ictbd-blogger_project\\projects\\bloggernew\\blogger\\blogger\\areas\\administrator\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07A4F232-9B3E-439A-B03D-B25DF73C016A}|Blogger\\Blogger.csproj|solutionrelative:blogger\\areas\\administrator\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Program.cs",
+              "RelativeDocumentMoniker": "Blogger\\Program.cs",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Program.cs",
+              "RelativeToolTip": "Blogger\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:52:25.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Views\\Person\\Create.cshtml",
+              "RelativeDocumentMoniker": "Blogger\\Areas\\Administrator\\Views\\Person\\Create.cshtml",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Views\\Person\\Create.cshtml",
+              "RelativeToolTip": "Blogger\\Areas\\Administrator\\Views\\Person\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T16:48:38.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "Blogger\\Areas\\Administrator\\Controllers\\PersonController.cs",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Blogger\\Areas\\Administrator\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:44:32.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PersonValidator.cs",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Models\\PersonValidator.cs",
+              "RelativeDocumentMoniker": "Blogger\\Areas\\Administrator\\Models\\PersonValidator.cs",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Models\\PersonValidator.cs",
+              "RelativeToolTip": "Blogger\\Areas\\Administrator\\Models\\PersonValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:42:56.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Blogger\\Areas\\Administrator\\Models\\Person.cs",
+              "ToolTip": "D:\\ICTBD-Blogger_Project\\Projects\\BloggerNew\\Blogger\\Blogger\\Areas\\Administrator\\Models\\Person.cs",
+              "RelativeToolTip": "Blogger\\Areas\\Administrator\\Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T16:42:34.779Z",
+              "EditorCaption": ""
             }
           ]
         }
